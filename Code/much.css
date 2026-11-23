@@ -158,6 +158,10 @@ border-top: 0;
     .popBox {
         padding: 8px 10px;
     }
+    .popBox h1{
+        margin-bottom: 7px;
+        font-size: 17px;
+    }
     .popBox h3 {
         font-size: 13px;
     }.gap{
