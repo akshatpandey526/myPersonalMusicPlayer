@@ -138,13 +138,13 @@ border-top: 0;
     }
 }
 
-/* Small Mobiles (<= 480px) */
+/* Small Mobiles  */
 @media (max-width: 480px) {
     .popup {
         width: 96vw;
         left: 2vw;
         top: 8vh;
-        height: 76vh;
+        height: 70vh;
     }
     .popup img {
         width: 130px;

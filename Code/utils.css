@@ -18,10 +18,12 @@
 .flex{
     display: flex;
 }
-
+.widthMy{
+    width:160px;
+}
 .gb{
     background-color: rgb(24, 20, 20);
-    z-index: 17;
+    z-index: 35;
 }
 .spacer{
     justify-content: space-between;
