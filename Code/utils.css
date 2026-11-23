@@ -1,0 +1,87 @@
+.rounded{
+    border-radius: 10px;
+}
+.padd1{
+    padding: 4px;
+}
+.padd2{
+    padding: 9px;
+}
+.borderG{
+    border: 1px solid gray;
+    box-shadow:  1px 1px 2px rgb(39, 39, 39), inset -1px -1px 2px rgb(38, 33, 33);
+}
+
+.hoverSc:hover{
+    transform: scale(1.2);
+}
+.flex{
+    display: flex;
+}
+
+.gb{
+    background-color: rgb(24, 20, 20);
+    z-index: 17;
+}
+.spacer{
+    justify-content: space-between;
+    align-items: center;
+}
+
+.mar{
+    margin-top: 5px;
+}
+.tmark{
+    font-size: 25px;
+    margin-right: 3vw;
+    margin-left: 1vw;
+    margin-bottom: 1vh;;
+}
+.cur{
+    cursor: pointer;
+}
+
+.basis{
+    flex-basis: 280px;
+}
+.basisTwo{
+    flex-basis: 480px;
+}
+.customBtn{    
+    border: 1px solid red;
+    color: black;
+    background-color:#aff5af;
+    font-size: 15px;
+font-weight: bolder;
+  border-radius: 10px;
+}
+.bShadow{
+    box-shadow: 4px 6px 8px 3px rgb(186 164 164);
+}
+.font{
+  font-size: 20px;
+}
+.lastimg img{
+  height: 60px;
+  border-radius: 100%;
+}
+.sign{
+    cursor:pointer;
+}
+.transform:hover{
+    transform: scale(1.1);
+}
+.gap{
+    gap: 20px;
+    margin-bottom: 15px;
+}
+.heading{
+    margin-bottom: 20px;
+    text-align: center;
+    text-decoration: underline;
+    text-decoration-color:#aff5af;
+}
+
+.visi{
+    visibility: hidden;
+}

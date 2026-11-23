@@ -1,0 +1,184 @@
+
+
+@media (max-width: 1024px) {
+    .left {
+        width: 35vw;
+        min-width: 280px;
+    }
+    .card {
+        flex-basis: 200px;
+        min-height: 280px;
+    }
+    .font {
+        font-size: 16px;
+    }
+    .playimg {
+        height: 50px;
+        top: 25px;
+        left: 15px;
+    }
+}
+@media (max-width: 768px) {
+    main {
+        height: calc(100vh - 130px);
+    }
+    .left {
+        width: 70vw;
+        min-width: 260px;
+        max-width: 320px;
+    }
+    .container {
+        gap: 10px;
+        padding: 0 8px 20px 8px;
+    }
+    .card {
+        flex-basis: 160px;
+        min-width: 140px;
+        min-height: 260px;
+        margin: 6px;
+    }
+    .bf {
+        font-size: 17px;
+    }
+    .sbf {
+        font-size: 13px;
+    }
+    .card:hover .bf {
+        font-size: 18px;
+    }
+    .card:hover .sbf {
+        font-size: 14px;
+    }
+    .playimg {
+        height: 45px;
+        top: 22px;
+        left: 12px;
+    }
+    .bottom {
+        height: auto;
+        min-height: 65px;
+        padding: 6px 10px;
+    }
+    .font {
+        font-size: 14px;
+    }
+    .lastimg img {
+        height: 48px;
+    }
+    #audio {
+        width: 80px;
+    }
+    .popup img{
+    width: 235px;
+    height: 235px;
+}
+}
+@media (max-width: 480px) {
+    main {
+        height: calc(100vh - 120px);
+    }
+   
+    .logo {
+        height: 2rem;
+        min-height: 40px;
+    }
+    .left {
+        width: 85vw;
+        min-width: 240px;
+    }
+    .left-upper-box {
+        height: 15vh;
+    }
+    .left-lower-box {
+        height: 75vh;
+    }
+    .container {
+        gap: 8px;
+        padding: 0 4px 15px 4px;
+    }
+    .card {
+        flex-basis: 135px;
+        min-width: 130px;
+        min-height: 230px;
+        margin: 4px;
+    }
+    .bf {
+        font-size: 14px;
+        margin-bottom: 2px;
+    }
+    .sbf {
+        font-size: 11px;
+        margin-left: 4px;
+        margin-bottom: 2px;
+    }
+    .card:hover .bf {
+        font-size: 15px;
+    }
+    .card:hover .sbf {
+        font-size: 12px;
+    }
+    .playimg {
+        height: 35px;
+        top: 15px;
+        left: 10px;
+    }
+    .bottom {
+        min-height: 60px;
+        padding: 4px 6px;
+    }
+    .font {
+        font-size: 12px;
+        max-width: 80px;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+    }
+    .adjust button {
+        font-size: 14px;
+        padding: 2px 4px;
+    }
+    #audio {
+        width: 55px;
+    }
+    .lastimg img {
+        height: 40px;
+    }.popup img{
+    width: 215px;
+    height: 215px;
+}
+}
+@media (max-height: 500px) {
+    main {
+        height: calc(100vh - 95px);
+    }
+    .bottom {
+        min-height: 50px;
+    }
+    .lastimg img {
+        height: 35px;
+    }
+    .card {
+        min-height: 210px;
+    }
+    .popup img{
+    width: 200px;
+    height: 200px;
+}
+}
+
+@keyframes slideTopToBottom {
+  0% {
+    transform: translateY(-100%);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+@media (max-aspect-ratio: 1/1) {
+   .wrap{
+    flex-wrap: wrap;
+}
+}

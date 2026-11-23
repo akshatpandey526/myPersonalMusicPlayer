@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Songs</title>
+    <link rel="icon" href="./assets/banner.png">
+    <link rel="stylesheet" href="./Code/utils.css">
+    <link rel="stylesheet" href="./Code/style.css">
+    <link rel="stylesheet" href="./Code/responsive.css">
+    <link rel="stylesheet" href="./Code/much.css">
+</head>
+
+<body>
+    <div class="">
+        <header class="gb padd2">
+            <nav class="flex spacer">
+                <div class="flex">
+                    <img src="./assets/open.svg" alt="open" class="hoverSc" onclick="openSide()">
+                    <img src="./assets/banner.png" class="logo">
+                </div>
+                <div>
+                    <input type="search" id="searchMyInput" class="inputField" placeholder="Search songs, artists...">
+                </div>
+                <div><button class="reset-btn cur customBtn transform" onclick="showAllSongs()">All Songs</button>
+                </div>
+            </nav>
+        </header>
+        <aside>
+            <div class="left padd1 borderG" id="sidebar">
+                <div class="left-upper-box rounded padd2 borderG">
+                    <img src="./assets/close.svg" alt="close" class="hoverSc" onclick="closeSide()">
+                </div>
+                <div class="left-lower-box rounded padd2 borderG">
+                    <p class="mar cur" onclick="showAllSongs()">All Singers</p>
+                    <div class="names over mar" id="names">
+                    </div>
+                    <div class="lastBox padd1">
+                        <div class="flex">
+                            <span class="tmark">&copy;</span>
+                            <span class="tmark">&hearts;</span>
+                            <span class="tmark">&trade;</span>
+                            <span class="tmark">&reg;<span>
+                        </div>
+                        <p>All Rights Reserved By Akshat pandey</p>
+                    </div>
+                </div>
+            </div>
+        </aside>
+        <main>
+            <div class="container flex over" id="container"></div>
+        </main>
+
+        <footer>
+            <div class="bottom gb padd1 adjust">
+                <div class="font">
+                    <div id="titleOne">dfdf</div>
+                    <div id="titleTwo">sdfd</div>
+                </div>
+                <div>
+                    <div class="adjust">
+                        <button id="prevBtn">⏮️</button>
+                        <button id="playBtn">▶️</button>
+                        <button id="nextBtn">⏭️</button>
+                    </div>
+                    <div>
+                        <span id="sign" class="cur"> 🔊</span>
+                        <input type="range" min="0" id="volumeSlider" max="100" value="100">
+                    </div>
+                </div>
+                <div class="lastimg">
+                    <img src="" id="ArtistPic">
+                </div>
+            </div>
+
+            <audio src="" id="audio"></audio>
+        </footer>
+    </div>
+    <div id="popUp" class="popup bgp">
+        <div class="divi">
+            <button class="customBtn transform" onclick="closePopUp()">✖</button>
+        </div>
+        <div class="flex wrap">
+            <span class="basis pers">
+                <img id="popupImg" class="bShadow" alt="">
+                <h2 id="popupTitle" class="und bShadow"></h2>
+            </span>
+            <span class="basisTwo popBox bgp bShadow">
+                <h1 class="heading">Details About Song</h1>
+                <div class="flex gap">
+                    <div>
+                        <h3>Movie/Album</h3>
+                        <h3>Lyricist</h3>
+                        <h3>Composer</h3>
+                        <h3>year</h3>
+                        <h3>Genre</h3>
+                        <h3>mood</h3>
+                        <h3 class="spa">Singer</h3>
+                        <h3>&nbsp; </h3>
+                    </div>
+                    <div class="color">
+                        <h3 id="movie"></h3>
+                        <h3 id="lyricist"></h3>
+                        <h3 id="composer"></h3>
+                        <h3 id="year"></h3>
+                        <h3 id="genre"></h3>
+                        <h3 id="mood"></h3>
+                        <h3 class="big spa speCol" id="popupArtist"></h3>
+                        <h3 class="big speCol" id="popupArtist2"></h3>
+                        <h3 class="big speCol" id="popupArtist3"></h3>
+                    </div>
+                </div>
+                <div class="progress-container">
+                    <span id="currentTime">0:00</span>
+                    <input type="range" id="progressBar" min="0" max="100" value="0">
+                    <span id="duration">0:00</span>
+                </div>
+                <button id="stopAudioBtnBox" class="bShadow customBtn innerBtn transform">stop</button>
+
+            </span>
+        </div>
+    </div>
+    <script src="./Code/sidebar.js"></script>
+    <script src="./Code/songs.js"></script>
+    <script src="./Code/script.js"></script>
+</body>
+
+</html>

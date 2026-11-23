@@ -1,0 +1,163 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: white;
+}
+body {
+    background-color: black;
+    height: 100vh;
+    width: 100vw;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+.inputField{
+    color:black;
+    height: 30px;
+    width: 26vw;
+    outline: none;
+    border: none;
+    border-radius: 20px;
+    padding: 15px;
+}
+header{
+  position: sticky;
+  top: 0;
+}
+
+.logo{
+height: 2.4rem;
+min-height: 50px;
+}
+.left{width: 25vw;
+    min-width: 290px;
+    height: 100vh;
+    background-color: rgb(0, 0, 0);
+    position: absolute;
+    top: 0;
+    left: 0;
+    transform: translateX(-100%);
+    transition: all 0.5s ease;
+    z-index: 35;
+}
+.left-upper-box{
+    margin: 5px;
+    width: 95%;
+    height: 20vh;
+    background-color: rgb(24, 22, 22);
+}
+.left-lower-box{
+    margin: 5px;
+    width: 95%;
+    height:75vh;
+    background-color: rgb(24, 22, 22);
+}
+.bottom{
+    width: 100%;
+    height: 11vh;
+    position: fixed;
+    bottom: 0;
+  
+}
+.over{
+    overflow-y: scroll;
+    height: 75%;
+    margin-left: 3px;
+}
+.over::-webkit-scrollbar {
+  width: 5px;
+}
+.over::-webkit-scrollbar-track {
+  background: #bfcdbf; 
+  border-radius: 8px;
+}
+.over::-webkit-scrollbar-thumb {
+  background: #444; 
+  border-radius: 10px;
+}
+
+.over::-webkit-scrollbar-thumb:hover {
+  background: #666; 
+}
+.lastBox{
+    height: 12vh;
+    border: 1px solid gray;
+    width: 100%;
+    margin-top: 1vh;
+}
+/* card designs from here  */
+main{
+   height: calc(100vh - 135px);
+}
+.reset-btn{
+    padding: 4px;
+    width:8vw;
+    min-width: 75px;
+}
+.container{
+    flex-wrap: wrap;
+   align-items: center; 
+   justify-content: center;
+   gap: 10px;
+   padding: 0 5px 20px 5px;
+   height: 100%;
+}
+.card{
+    background-color: #aff5af;
+    height: 30vh;   
+    min-height: 300px;
+    width: 20vw;
+    min-width: 150px;
+    margin: 8px;
+    flex-basis: 230px;
+   position: relative;
+}
+.img{
+height: 60%;
+width:  100%;
+background-color: black;
+}
+.bf{font-size: 20px;
+    color: rgb(0, 0, 0);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+    margin-bottom:4px ;
+}
+.sbf{font-size: 15px;
+    color: rgb(0, 0, 0);
+    margin-left: 7px;
+    margin-bottom:3px ;
+}
+.card:hover .sbf{font-size: 17px;
+}
+.card:hover{
+    opacity: 1.5;
+    transform: scale(1.02);
+}
+.img:hover{
+    opacity: 0.9;
+}
+.card:hover .bf{font-size: 22px;
+   
+}
+.playimg{
+    height: 9vh;
+    position: absolute;
+    z-index: 9;
+    top:38px;
+    left: 15px;
+    background-color: black;
+    border-radius: 100%;
+    display: none;
+}
+.card:hover .playimg{
+    display: block;
+  animation: slideTopToBottom 0.9s ease-out forwards;
+}
+
+.adjust{display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    align-items: center;
+    justify-content: space-around;
+justify-items: center;
+}
