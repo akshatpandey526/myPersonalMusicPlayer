@@ -113,7 +113,7 @@ border-top: 0;
         width: 92vw;
         left: 4vw;
         top: 8vh;
-        height: 79vh;
+        height: 76vh;
         padding-bottom: 9px;
     }
     .popup img {
@@ -129,7 +129,7 @@ border-top: 0;
     }
     .popBox {
         width: 96%;
-        margin: 0 auto;
+        margin: 0 auto 10px;
     }
     .innerBtn {
         margin-left: auto;
@@ -144,7 +144,7 @@ border-top: 0;
         width: 96vw;
         left: 2vw;
         top: 8vh;
-        height: 79vh;
+        height: 76vh;
     }
     .popup img {
         width: 130px;
@@ -160,6 +160,8 @@ border-top: 0;
     }
     .popBox h3 {
         font-size: 13px;
+    }.gap{
+        margin-bottom: 5px;
     }
     .big {
         font-size: 15px;
@@ -169,7 +171,7 @@ border-top: 0;
 /* Landscape / Short Height Screens (<= 520px) */
 @media (max-height: 520px) {
     .popup {
-        height: 79vh;
+        height: 76vh;
         top: 8vh;
     }
     .popup img {
