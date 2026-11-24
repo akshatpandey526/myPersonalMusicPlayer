@@ -19,7 +19,7 @@ let currentSongs = songs;
 function displaySongs(songs) {
 container.innerHTML=songs.map((song,i)=>{    
     return `<div class="card rounded padd2" id="" onclick="playFromCard(${i})">
-    <img loading="lazy" class="rounded img" src=${song.src} alt="">
+    <img loading="lazy" decoding="async" class="rounded img" src=${song.src} alt="">
     <img loading="lazy" class="playimg"src=${IMGSRC} alt="">
     <h2 class="bf">${song.Title}</h2>
     <h3 class="sbf">${song.Artist}</h3>
@@ -102,11 +102,11 @@ names.innerHTML = songs.map((song) => {
 }).join("");
 
 function filterByArtist(artist) {
-    currentSongs = songs.filter(song => song.Artist.toLowerCase().includes(artist.toLowerCase()));
+    currentSongs = songs.filter(song =>[song.Artist, song.Artist2, song.Artist3].some(name =>(name || "").toLowerCase().includes(artist.toLowerCase())));
     displaySongs(currentSongs);
+    index = 0;
     if (currentSongs.length > 0) {
-        index=0;
-        playFromCard();
+        loadSong(index);
     }
 }
 
@@ -135,7 +135,6 @@ searchMyInput.addEventListener("keydown", (e) => {
     if (e.key === "Enter" && currentSongs.length > 0) {
         searchMyInput.value="";
         index=0;
-        playFromCard();
     }
 });
 loadSong(index);

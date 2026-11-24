@@ -1,12 +1,12 @@
 const songs=[ {
         Title: "Tere liye",
         Artist: "Lata Mangeshkar Ji",
-        Artist2: "Roopkumar Rathod",         
+        Artist2: "Roopkumar Rathod",                 
         Movie: "Veer-Zaara",
         Lyricist: "Javed Akhtar",
         Composer: "Madan Mohan",       
         Year: "2004",        
-        src: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRFuR7EZVM8VrzEwG0Kf8tav4adtLBdkMXklVsI8qmQUH2UH73JunKFYpxz&s=10",
+        src: "https://res.cloudinary.com/dp9n2ybat/image/upload/f_auto,q_auto/v1795529368/Latadi_sof6zk.jpg",
         Genre: "Romantic, Love, Melancholic",
         Mood: "Deep Love, Separation",
         songSrc: "https://res.cloudinary.com/dp9n2ybat/video/upload/v1795505412/Tere_Liye_tma1uz.mp3"
@@ -20,7 +20,7 @@ const songs=[ {
     Year:"2014",
     Genre: "Romantic, Love",
     Mood: "Passionate Love, Emotional",
-    src:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRETraqkav99oDFbUFGsbCDZl0Mteg_X51A8QGEdAE7vwEtf5WxDLa__Nl6HP71zQTFI7scIFhdXe-HvmMlZTX9grvaQBvTHDmR8-dRxiCzGQ&s=10",
+    src:"https://res.cloudinary.com/dp9n2ybat/image/upload/f_auto,q_auto/v1795529368/arijitsingh_hhtv4h.webp",
     songSrc:"https://res.cloudinary.com/dp9n2ybat/video/upload/v1795505702/Tu_Hi_Hai_Aashiqui_hfl6v3.mp3"
 },{
         Title: "Phir Mohabbat",
@@ -31,11 +31,37 @@ const songs=[ {
         Lyricist: "Sayeed Quadri",
         Composer: "Mithoon",
         Year: "2011",
-        src: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTEefacsJ9mXp7edqhndZ4LYhiRK4TzlkfBO264zSr7AQ&s=10",
         Genre: "Romantic, Melancholic, Sad",
         Mood: "Heartbreak, Deep Love, Longing",
+        src: "https://res.cloudinary.com/dp9n2ybat/image/upload/f_auto,q_auto/v1795529368/mohemmad_irfan_nilfoa.jpg",
         songSrc: "https://res.cloudinary.com/dp9n2ybat/video/upload/v1795504914/PhirMohabbat_lgicv2.mp3"
     },{
+    Title: "Har Kisi Ko",
+    Artist: "Neeti Mohan",
+    Artist2: "Arijit Singh",
+    Movie: "Boss",
+    Lyricist: "Manoj Yadav",
+    Composer: "Chirantan Bhatt",
+    Year: "2013",
+    src: "https://res.cloudinary.com/dp9n2ybat/image/upload/f_auto,q_auto/v1795538014/neeti_1_mvrujl.jpg",
+    Genre: "Romantic, Pop Filmi",
+    Mood: "Romance, Longing, Soulful",
+    songSrc: "https://res.cloudinary.com/dp9n2ybat/video/upload/v1795538408/Har_Kisi_Ko_1_Boss_128_Kbps_compressed_by_happyscribe.com_ql4kwk.mp3"
+},
+{
+    Title: "Mere Bina",
+    Artist: "Nikhil D'Souza",
+    Artist2:" ",
+    Movie: "Crook",
+    Lyricist: "Kumaar",
+    Composer: "Pritam",
+    Year: "2010",
+    src: "https://res.cloudinary.com/dp9n2ybat/image/upload/f_auto,q_auto/v1795538631/nikhil_1_gx0m29.jpg",
+    Genre: "Romantic, Pop Rock, Melancholic",
+    Mood: "Longing, Heartbreak, Nostalgia",
+    songSrc: "https://res.cloudinary.com/dp9n2ybat/video/upload/v1795538467/Mere_Bina_Crook_128_Kbps_compressed_by_happyscribe.com_sx7s3y.mp3"
+},
+{
        Title: "Teri Deewani",
         Artist: "kailash kher",
         Artist2: " ",        
@@ -45,7 +71,7 @@ const songs=[ {
         Year: "2006",
         Genre: "Sufi, Romantic, Devotional",
         Mood: "Spiritual Love, Ishq, Junoon",    
-        src: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT1ZHzFKp9N_Wl4LeQyrctwFxBjP6SgY_4zAw&s",
+        src: "https://res.cloudinary.com/dp9n2ybat/image/upload/f_auto,q_auto/v1795529367/kailashkher_k6qtlo.jpg",
         songSrc: "https://res.cloudinary.com/dp9n2ybat/video/upload/v1795505562/Teri_Deewani_n8pjce.mp3"
     },
     {
@@ -58,10 +84,9 @@ const songs=[ {
         Year: "2009",
         Genre: "Romantic, Sufi",
         Mood: "Devotion, Peaceful Love",
-        src: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTVbj4jMjo6vSB1uK33rLD01iuejDKDNhHsjg&s",
-        songSrc:"https://res.cloudinary.com/dp9n2ybat/video/upload/v1795501826/Ajj_Din_Chadheya_bj7bzt.mp3"
+        src: "https://res.cloudinary.com/dp9n2ybat/image/upload/f_auto,q_auto/v1795529367/rahatfatehalikhan_k3ioje.jpg",
+        songSrc:"https://res.cloudinary.com/dp9n2ybat/video/upload/v1795545067/Ajj_Din_Chadheya_qmiicw.mp3"
     },
-   
     {
         Title: "Dil ibadat",
         Artist: "KK -Krishnakumar Kunnath",
@@ -72,7 +97,7 @@ const songs=[ {
         Year: "2009",
         Genre: "Romantic, Love",
         Mood: "Deep Love, Emotional",
-        src: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS8uLLNBHT4a8Lh-6H16eyFwjVq9xl9Uvk0dQ&s",
+        src: "https://res.cloudinary.com/dp9n2ybat/image/upload/f_auto,q_auto/v1795529367/kk_wowdnn.jpg",
         songSrc:"https://res.cloudinary.com/dp9n2ybat/video/upload/v1795502847/Dil_Ibaadat_jqh7u1.mp3"
     },
     {Title: "Dil kehta hai",
@@ -84,12 +109,12 @@ const songs=[ {
         Year: "1995",
         Genre: "Romantic, Melody",
         Mood: "Love, Emotional, Nostalgic",
-        src: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRa28-PLnrgBAnVhzkxybcwutSoPuN8gWTBFlEhUZ4c4QN6BoQTbWZZkrg&s=10",
-        songSrc:"https://res.cloudinary.com/dp9n2ybat/video/upload/v1795503285/Dil_Kehta_Hai_iwx6jk.mp3"
+        src: "https://res.cloudinary.com/dp9n2ybat/image/upload/f_auto,q_auto/v1795529363/kumarsanu_ejjcso.jpg",
+        songSrc:"https://res.cloudinary.com/dp9n2ybat/video/upload/v1795545736/Dil_Kehta_Hai_afuwsa.mp3"
     },
     {
         Title: "Mera Pyar Tera Pyar",
-        Artist: "Jeet Ganguli",
+        Artist: "Composer - Jeet Ganguli",
          Artist2: "Arijit Singh",        
         Movie: "Jalebi",
         Lyricist: "Rashmi Virag",
@@ -97,7 +122,7 @@ const songs=[ {
         Year: "2018",
         Genre: "Romantic, Love",
         Mood: "Emotional Love, Separation",
-        src: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQBVBt3QHfBVAxIi44L_c_sX_HpG5frKlR7ghYKYVIp4M5sJkmo-Ubh5y92&s=10",
+        src: "https://res.cloudinary.com/dp9n2ybat/image/upload/f_auto,q_auto/v1795529363/jeet_d8a990.jpg",
         songSrc:"https://res.cloudinary.com/dp9n2ybat/video/upload/v1795504621/Mera_Pyar_iryfuk.mp3"
     },
      {Title: "Sun raha Hai",
@@ -109,11 +134,9 @@ const songs=[ {
         Year: "2013",
         Genre: "Sad, Romantic, Emotional",
         Mood: "Heartbreak, Pain, Loneliness",
-        src: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTudnYf23_CKkBaMhw0MmU_sN-EigCTJVqL9oSqP66woXtKx-8XFGgoSotP&s=10",
+        src: "https://res.cloudinary.com/dp9n2ybat/image/upload/f_auto,q_auto/v1795529363/shreya_ikz2q1.jpg",
         songSrc:"https://res.cloudinary.com/dp9n2ybat/video/upload/v1795505245/Sun_Raha_Hai_zrjzq4.mp3"
-    },
-    
-    
+    },    
     {
           Title: "Kaise Hua",
         Artist: "Vishal Mishra",
@@ -124,9 +147,21 @@ const songs=[ {
         Year: "2019",
         Genre: "Romantic, Love",
         Mood: "Falling in Love, Happiness",
-        src: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT65cXvb0NT-BL2yL9QW9JCeUaldwzdYtEgig&s",
+        src: "https://res.cloudinary.com/dp9n2ybat/image/upload/f_auto,q_auto/v1795529365/vishal_w8my4r.jpg",
         songSrc:"https://res.cloudinary.com/dp9n2ybat/video/upload/v1795503757/Kaise_Hua_uwt96j.mp3"
-    }, {
+    },   {
+    Title: "Tu Hai Ki Nahi",
+    Artist: "Ankit Tiwari",
+     Artist2: " ", 
+    Movie: "Roy",
+    Lyricist: "Kumaar",
+    Composer: "Ankit Tiwari",
+    Year: "2015",
+    Genre: "Romantic, Sad, Soulful",
+    Mood: "Heartbreak, Longing, Doubt",
+    src: "https://res.cloudinary.com/dp9n2ybat/image/upload/f_auto,q_auto/v1795537444/ankit_tiwari_1_dwqjog.jpg",
+    songSrc: "https://res.cloudinary.com/dp9n2ybat/video/upload/v1795537243/Tu_Hai_Ki_Nahi_bhnohs.mp3"
+}, {
         Title: "Main Agar Kahoon",
         Artist: "Sonu Nigam",
         Artist2: "Shreya Ghoshal",        
@@ -136,19 +171,19 @@ const songs=[ {
         Year: "2007",
         Genre: "Romantic, Melody",
         Mood: "Admiration, Beautiful Love",
-        src: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRo75kNYTx8cgnz_D-329J9GVBcpQuLOOLT2w&s",
+        src: "https://res.cloudinary.com/dp9n2ybat/image/upload/f_auto,q_auto/v1795529365/sonu_xotw9m.jpg",
         songSrc: "https://res.cloudinary.com/dp9n2ybat/video/upload/v1795504189/Main_Agar_Kahoon_tzcz1z.mp3"
     },{
    Title:"Kaun Tujhe",
-    Artist2:" ",
-    Artist:"Palak Muchhal",
+   Artist:"Palak Muchhal",
+   Artist2:" ",
     Movie: "M.S. Dhoni: The Untold Story",
     Lyricist: "Manoj Muntashir",
     Composer: "Amaal Mallik",
     Year:"2016",
     Genre: "Romantic, Love Ballad",
     Mood: "One-sided Love, Deep Affection",
-    src:"https://book-my-singer.s3.ap-south-1.amazonaws.com/website-assets/artist/Palak+Muchhal/Hire+Palak+Muchhal+for+Corporate+Events.webp",
+    src:"https://res.cloudinary.com/dp9n2ybat/image/upload/f_auto,q_auto/v1795529362/palak_nujein.webp",
     songSrc:"https://res.cloudinary.com/dp9n2ybat/video/upload/v1795503974/Kaun_Tujhe_zepzuv.mp3"
 }, {
          Title: "Main Yahaan Hoon",
@@ -161,7 +196,7 @@ const songs=[ {
         Year: "2004",
         Genre: "Romantic, Love",
         Mood: "Longing, Eternal Love",
-        src: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRErlxMRI7UHWp_zw9y4kEXphMmFmHJyMDu7Q&s",
+        src: "https://res.cloudinary.com/dp9n2ybat/image/upload/f_auto,q_auto/v1795529364/udit_jcfuki.jpg",
         songSrc:"https://res.cloudinary.com/dp9n2ybat/video/upload/v1795504409/Main_Yahaan_Hoon_Yahaan_tyoy2x.mp3"
     },{
         Title: "Bol Do Na Zara",
@@ -171,9 +206,9 @@ const songs=[ {
         Lyricist: "Rashmi Virag",
         Composer: "Amaal Mallik",
         Year: "2016",
-        src: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRdGNOu5CG8zz9VaRjZCi8jsRjK5-HTIUXNhd6A_-oshHPqsTWqjD8FTg3O&s=10",
         Genre: "Romantic, Soft Rock, Melancholic",
         Mood: "Longing, Confession, Deep Love",
+        src: "https://res.cloudinary.com/dp9n2ybat/image/upload/f_auto,q_auto/v1795529364/armanmalik_gqtqfs.jpg",
         songSrc: "https://res.cloudinary.com/dp9n2ybat/video/upload/v1795502559/bolDo_sevm3e.mp3"
     },
     
@@ -186,22 +221,22 @@ const songs=[ {
         Lyricist: "Kumaar",
         Composer: "Amaal Mallik",
         Year: "2016",
-        src: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTr8gQerAAlRi8F2cDiz319xXfWh0z8rRTe8uPzekuBmCBq9xDPw7wWHO4&s=10",
+        src: "https://res.cloudinary.com/dp9n2ybat/image/upload/f_auto,q_auto/v1795529362/amaal_bshswi.jpg",
         Genre: "Romantic, Melancholic, Sad",
         Mood: "Heartbreak, Deep Love, Longing",
-        songSrc: "songs/Soch Na Sake.mp3"
+        songSrc: "https://res.cloudinary.com/dp9n2ybat/video/upload/v1795533796/Soch_Na_Sake_Airlift_128_Kbps_compressed_by_happyscribe.com_1_ssmet3.mp3"
     },{
         Title: "Saanson ki mala",
         Artist: "Ustad Nusrat Fateh Ali Khan Sahab",
          Artist2: " ",        
         Movie: "Traditional / Qawwali",
-        Lyricist: "Traditional / Tufail Hoshiarpuri (attribution varies)",
+        Lyricist: "Traditional / Tufail Hoshiarpuri",
         Composer: "Nusrat Fateh Ali Khan",
         Year: "1982",
         Genre: "Sufi, Qawwali, Devotional",
         Mood: "Spiritual, Divine Love",
-        src: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTHVjs5e8PN8ubhj0vOQzl5ZuiRcGz78_CSWw&s",
-        songSrc:"https://res.cloudinary.com/dp9n2ybat/video/upload/v1795505081/sanson-ki-mala-pey_jw2dnd.mp3"
+        src: "https://res.cloudinary.com/dp9n2ybat/image/upload/f_auto,q_auto/v1795529364/nusrat_mebtiy.jpg",
+        songSrc:"https://res.cloudinary.com/dp9n2ybat/video/upload/v1795545744/sanson-ki-mala-pey_gnrioi.mp3"
     },
     {
      Title:"Bekhayali",
@@ -213,7 +248,7 @@ const songs=[ {
     Year:"2019",
     Genre: "Sad, Rock, Romantic",
     Mood: "Heartbreak, Pain, Obsession",
-    src:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRevYx57-qk1ftNi4z9CO499DsfZTBdyOS8FRXEj50uvWcpmj681GAV_TQ&s=10",
+    src:"https://res.cloudinary.com/dp9n2ybat/image/upload/f_auto,q_auto/v1795529362/sachet_yduasx.jpg",
     songSrc:"https://res.cloudinary.com/dp9n2ybat/video/upload/v1795502121/Bekhayali_kuvwku.mp3"
 },{
        Title: "Humnava Mere",
@@ -225,7 +260,7 @@ const songs=[ {
         Year: "2018",
         Genre: "Sad, Romantic",
         Mood: "Heartbreak, Separation, Missing Someone",
-        src: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTDKGOZcdvBN9J4HywxIK8dxWn4Q_rdGI1JdA&s",
+        src: "https://res.cloudinary.com/dp9n2ybat/image/upload/f_auto,q_auto/v1795529363/jubin_qpkl7y.jpg",
         songSrc:"https://res.cloudinary.com/dp9n2ybat/video/upload/v1795503530/Humnava_Mere_uo3o7g.mp3"
     }
     ,
@@ -239,12 +274,12 @@ const songs=[ {
         Year: "2007",
         Genre: "Romantic, Melody, Bollywood",
         Mood: "Love, Happiness, Peaceful",
-        src: "https://i1.sndcdn.com/artworks-000071970274-a4vobk-t500x500.jpg",
+        src: "https://res.cloudinary.com/dp9n2ybat/image/upload/f_auto,q_auto/v1795529362/mohit_vs3hsr.jpg",
         songSrc: "https://res.cloudinary.com/dp9n2ybat/video/upload/v1795506117/Tum_Se_Hi_Jab_We_Met_b8a8nw.mp3"
     },
     {
         Title: "Tu Jaane Na",
-        Artist: "Pritam",
+        Artist: "Composer - Pritam",
         Artist2: "Atif Aslam",
         Movie: "Ajab Prem Ki Ghazab Kahani",
         Lyricist: "Irshad Kamil",
@@ -252,7 +287,7 @@ const songs=[ {
         Year: "2009",
         Genre: "Romantic, Sad, Melody",
         Mood: "Heartbreak, Unexpressed Love",
-        src: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTW9mAc-u07GWnTpnfEgRHMzccjwcjCVeY6HoewKuNncrSPoxNFsILsAxY&s=10",
+        src: "https://res.cloudinary.com/dp9n2ybat/image/upload/f_auto,q_auto/v1795532928/pritam_zibyzm.jpg",
         songSrc: "https://res.cloudinary.com/dp9n2ybat/video/upload/v1795505860/tuJaneNa_xlmvfx.mp3"
     },
     {
@@ -265,8 +300,85 @@ const songs=[ {
         Year: "1972",
         Genre: "Romantic, Classic, Melody",
         Mood: "Peaceful Love, Nostalgia, Happiness",
-        src: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQo1-OpzkY16b_nk6xHaFwn3GxjLlH_Fmqpi71MimTRgzVa1tzo98Z2CGs&s=10",
+        src: "https://res.cloudinary.com/dp9n2ybat/image/upload/f_auto,q_auto/v1795529363/kishore_io3s3f.jpg",
         songSrc: "https://res.cloudinary.com/dp9n2ybat/video/upload/v1795504780/oMere_anhead.mp3"
+    },{
+        Title: "Chand Sifarish",
+        Artist: "Shaan",
+        Artist2: "Kailash Kher",
+        Movie: "Fanaa",
+        Lyricist: "Prasoon Joshi",
+        Composer: "Jatin-Lalit",
+        Year: "2006",
+        Genre: "Romantic, Melody, Filmi",
+        Mood: "Admiration, Joyful Love, Romance",
+        src: "https://res.cloudinary.com/dp9n2ybat/image/upload/f_auto,q_auto/v1795541606/shaan_nawir3.jpg",
+        songSrc: "https://res.cloudinary.com/dp9n2ybat/video/upload/v1795544383/Chand_Sifarish_1_yrejfs.mp3"
+    },
+    {
+        Title: "Itna Na Mujhse Tu Pyar Kar",
+        Artist: "Talat Mahmood",
+        Artist2: "Sandhya Mukherjee",
+        Movie: "Chhaya",
+        Lyricist: "Rajinder Krishan",
+        Composer: "Salil Chowdhury",
+        Year: "1961",
+        Genre: "Romantic, Classic, Melody",
+        Mood: "Deep Love, Emotional, Nostalgic",
+        src: "https://res.cloudinary.com/dp9n2ybat/image/upload/f_auto,q_auto/v1795541609/talatmahmood_lrmzx3.jpg",
+        songSrc: "https://res.cloudinary.com/dp9n2ybat/video/upload/v1795544373/Itna_Na_Mujhse_Tu_Pyar_Badha_1_i8j1yw.mp3"
+    },
+    {
+        Title: "Yeh Raatein Yeh Mausam",
+        Artist: "Asha Bhosle",
+        Artist2: "Kishore Kumar",
+        Movie: "Dilli Ka Thug",
+        Lyricist: "Shailendra",
+        Composer: "Ravi",
+        Year: "1958",
+        Genre: "Romantic, Classic, Melody",
+        Mood: "Peaceful Love, Nostalgia, Dreamy",
+        src: "https://res.cloudinary.com/dp9n2ybat/image/upload/f_auto,q_auto/v1795541604/ashabhosle_zohfyx.jpg",
+        songSrc: "https://res.cloudinary.com/dp9n2ybat/video/upload/v1795544369/Yeh_Raaten_Yeh_Mausam_1_rvlvyw.mp3"
+    },
+    {
+        Title: "Ek Pyar Ka Nagma Hai",
+        Artist: "Mukesh",
+        Artist2: "Lata Mangeshkar",
+        Movie: "Shor",
+        Lyricist: "Santosh Anand",
+        Composer: "Laxmikant-Pyarelal",
+        Year: "1972",
+        Genre: "Romantic, Classic, Soulful",
+        Mood: "Peaceful Love, Life, Nostalgia",
+        src: "https://res.cloudinary.com/dp9n2ybat/image/upload/f_auto,q_auto/v1795541605/mukesh_njursy.jpg",
+        songSrc: "https://res.cloudinary.com/dp9n2ybat/video/upload/v1795544378/Ek_Pyar_Ka_Naghma_1_nmrdfg.mp3"
+    },
+    {
+        Title: "Pehli Pehli Baar Mohabbat..",
+        Artist: "Alka Yagnik",
+        Artist2: "Kumar Sanu",
+        Movie: "Sirf Tum",
+        Lyricist: "Sameer",
+        Composer: "Nadeem-Shravan",
+        Year: "1999",
+        Genre: "Romantic, Melody, 90s",
+        Mood: "First Love, Happiness, Romantic",
+        src: "https://res.cloudinary.com/dp9n2ybat/image/upload/f_auto,q_auto/v1795541603/alka_yagnik_le5uxe.jpg",
+        songSrc: "https://res.cloudinary.com/dp9n2ybat/video/upload/v1795544375/Pehli_Pehli_Baar_Mohabbat_Ki_Hai_1_ruxgin.mp3"
+    },
+    {
+        Title: "Tu Pyar Hai Kisi Aur Ka",
+        Artist: "Anuradha Paudwal",
+        Artist2: "Kumar Sanu",
+        Movie: "Dil Hai Ke Manta Nahin",
+        Lyricist: "Sameer",
+        Composer: "Nadeem-Shravan",
+        Year: "1991",
+        Genre: "Romantic, Sad, 90s",
+        Mood: "Heartbreak, Unrequited Love, Emotional",
+        src: "https://res.cloudinary.com/dp9n2ybat/image/upload/f_auto,q_auto/v1795541604/anuradha_izog7m.jpg",
+        songSrc: "https://res.cloudinary.com/dp9n2ybat/video/upload/v1795544371/Tu_Pyar_Hai_Kisi_Aur_Ka_1_ngedrg.mp3"
     }
 ];
 
