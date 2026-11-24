@@ -9,7 +9,7 @@ const songs=[ {
         src: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRFuR7EZVM8VrzEwG0Kf8tav4adtLBdkMXklVsI8qmQUH2UH73JunKFYpxz&s=10",
         Genre: "Romantic, Love, Melancholic",
         Mood: "Deep Love, Separation",
-        songSrc: "songs/Tere Liye.mp3"
+        songSrc: "https://res.cloudinary.com/dp9n2ybat/video/upload/v1795505412/Tere_Liye_tma1uz.mp3"
     },{
     Title:"Tu hi hai Aashiqui",
    Artist:"Arijit Singh",
@@ -21,7 +21,7 @@ const songs=[ {
     Genre: "Romantic, Love",
     Mood: "Passionate Love, Emotional",
     src:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRETraqkav99oDFbUFGsbCDZl0Mteg_X51A8QGEdAE7vwEtf5WxDLa__Nl6HP71zQTFI7scIFhdXe-HvmMlZTX9grvaQBvTHDmR8-dRxiCzGQ&s=10",
-    songSrc:"songs/Tu Hi Hai Aashiqui.mp3"
+    songSrc:"https://res.cloudinary.com/dp9n2ybat/video/upload/v1795505702/Tu_Hi_Hai_Aashiqui_hfl6v3.mp3"
 },{
         Title: "Phir Mohabbat",
         Artist: "Mohammed Irfan",
@@ -34,7 +34,7 @@ const songs=[ {
         src: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTEefacsJ9mXp7edqhndZ4LYhiRK4TzlkfBO264zSr7AQ&s=10",
         Genre: "Romantic, Melancholic, Sad",
         Mood: "Heartbreak, Deep Love, Longing",
-        songSrc: "songs/PhirMohabbat.mp3"
+        songSrc: "https://res.cloudinary.com/dp9n2ybat/video/upload/v1795504914/PhirMohabbat_lgicv2.mp3"
     },{
        Title: "Teri Deewani",
         Artist: "kailash kher",
@@ -46,7 +46,7 @@ const songs=[ {
         Genre: "Sufi, Romantic, Devotional",
         Mood: "Spiritual Love, Ishq, Junoon",    
         src: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT1ZHzFKp9N_Wl4LeQyrctwFxBjP6SgY_4zAw&s",
-        songSrc: "songs/Teri_Deewani.mp3"
+        songSrc: "https://res.cloudinary.com/dp9n2ybat/video/upload/v1795505562/Teri_Deewani_n8pjce.mp3"
     },
     {
         Title: "Ajj Din Chadheya",
@@ -59,7 +59,7 @@ const songs=[ {
         Genre: "Romantic, Sufi",
         Mood: "Devotion, Peaceful Love",
         src: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTVbj4jMjo6vSB1uK33rLD01iuejDKDNhHsjg&s",
-        songSrc:"songs/Ajj din chadheya.mp3"
+        songSrc:"https://res.cloudinary.com/dp9n2ybat/video/upload/v1795501826/Ajj_Din_Chadheya_bj7bzt.mp3"
     },
    
     {
@@ -73,7 +73,7 @@ const songs=[ {
         Genre: "Romantic, Love",
         Mood: "Deep Love, Emotional",
         src: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS8uLLNBHT4a8Lh-6H16eyFwjVq9xl9Uvk0dQ&s",
-        songSrc:"songs/Dil Ibaadat.mp3"
+        songSrc:"https://res.cloudinary.com/dp9n2ybat/video/upload/v1795502847/Dil_Ibaadat_jqh7u1.mp3"
     },
     {Title: "Dil kehta hai",
         Artist: "Kumar Sanu",
@@ -85,7 +85,7 @@ const songs=[ {
         Genre: "Romantic, Melody",
         Mood: "Love, Emotional, Nostalgic",
         src: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRa28-PLnrgBAnVhzkxybcwutSoPuN8gWTBFlEhUZ4c4QN6BoQTbWZZkrg&s=10",
-        songSrc:"songs/Dil Kehta Hai.mp3"
+        songSrc:"https://res.cloudinary.com/dp9n2ybat/video/upload/v1795503285/Dil_Kehta_Hai_iwx6jk.mp3"
     },
     {
         Title: "Mera Pyar Tera Pyar",
@@ -98,7 +98,7 @@ const songs=[ {
         Genre: "Romantic, Love",
         Mood: "Emotional Love, Separation",
         src: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQBVBt3QHfBVAxIi44L_c_sX_HpG5frKlR7ghYKYVIp4M5sJkmo-Ubh5y92&s=10",
-        songSrc:"songs/Mera Pyar.mp3"
+        songSrc:"https://res.cloudinary.com/dp9n2ybat/video/upload/v1795504621/Mera_Pyar_iryfuk.mp3"
     },
      {Title: "Sun raha Hai",
         Artist: "Shreya Ghoshal",
@@ -110,7 +110,7 @@ const songs=[ {
         Genre: "Sad, Romantic, Emotional",
         Mood: "Heartbreak, Pain, Loneliness",
         src: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTudnYf23_CKkBaMhw0MmU_sN-EigCTJVqL9oSqP66woXtKx-8XFGgoSotP&s=10",
-        songSrc:"songs/Sun Raha hai.mp3"
+        songSrc:"https://res.cloudinary.com/dp9n2ybat/video/upload/v1795505245/Sun_Raha_Hai_zrjzq4.mp3"
     },
     
     
@@ -125,7 +125,7 @@ const songs=[ {
         Genre: "Romantic, Love",
         Mood: "Falling in Love, Happiness",
         src: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT65cXvb0NT-BL2yL9QW9JCeUaldwzdYtEgig&s",
-        songSrc:"songs/Kaise Hua.mp3"
+        songSrc:"https://res.cloudinary.com/dp9n2ybat/video/upload/v1795503757/Kaise_Hua_uwt96j.mp3"
     }, {
         Title: "Main Agar Kahoon",
         Artist: "Sonu Nigam",
@@ -137,7 +137,7 @@ const songs=[ {
         Genre: "Romantic, Melody",
         Mood: "Admiration, Beautiful Love",
         src: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRo75kNYTx8cgnz_D-329J9GVBcpQuLOOLT2w&s",
-        songSrc: "songs/Main Agar Kahoon.mp3"
+        songSrc: "https://res.cloudinary.com/dp9n2ybat/video/upload/v1795504189/Main_Agar_Kahoon_tzcz1z.mp3"
     },{
    Title:"Kaun Tujhe",
     Artist2:" ",
@@ -149,7 +149,7 @@ const songs=[ {
     Genre: "Romantic, Love Ballad",
     Mood: "One-sided Love, Deep Affection",
     src:"https://book-my-singer.s3.ap-south-1.amazonaws.com/website-assets/artist/Palak+Muchhal/Hire+Palak+Muchhal+for+Corporate+Events.webp",
-    songSrc:"songs/Kaun_Tujhe.mp3"
+    songSrc:"https://res.cloudinary.com/dp9n2ybat/video/upload/v1795503974/Kaun_Tujhe_zepzuv.mp3"
 }, {
          Title: "Main Yahaan Hoon",
         Artist: "Udit Narayan",
@@ -162,7 +162,7 @@ const songs=[ {
         Genre: "Romantic, Love",
         Mood: "Longing, Eternal Love",
         src: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRErlxMRI7UHWp_zw9y4kEXphMmFmHJyMDu7Q&s",
-        songSrc:"songs/Main Yahaan Hoon Yahaan.mp3"
+        songSrc:"https://res.cloudinary.com/dp9n2ybat/video/upload/v1795504409/Main_Yahaan_Hoon_Yahaan_tyoy2x.mp3"
     },{
         Title: "Bol Do Na Zara",
         Artist: "Armaan Malik",
@@ -174,7 +174,7 @@ const songs=[ {
         src: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRdGNOu5CG8zz9VaRjZCi8jsRjK5-HTIUXNhd6A_-oshHPqsTWqjD8FTg3O&s=10",
         Genre: "Romantic, Soft Rock, Melancholic",
         Mood: "Longing, Confession, Deep Love",
-        songSrc: "songs/bolDo.mp3"
+        songSrc: "https://res.cloudinary.com/dp9n2ybat/video/upload/v1795502559/bolDo_sevm3e.mp3"
     },
     
    {
@@ -201,7 +201,7 @@ const songs=[ {
         Genre: "Sufi, Qawwali, Devotional",
         Mood: "Spiritual, Divine Love",
         src: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTHVjs5e8PN8ubhj0vOQzl5ZuiRcGz78_CSWw&s",
-        songSrc:"songs/sanson-ki-mala-pey.mp3"
+        songSrc:"https://res.cloudinary.com/dp9n2ybat/video/upload/v1795505081/sanson-ki-mala-pey_jw2dnd.mp3"
     },
     {
      Title:"Bekhayali",
@@ -214,7 +214,7 @@ const songs=[ {
     Genre: "Sad, Rock, Romantic",
     Mood: "Heartbreak, Pain, Obsession",
     src:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRevYx57-qk1ftNi4z9CO499DsfZTBdyOS8FRXEj50uvWcpmj681GAV_TQ&s=10",
-    songSrc:"songs/Bekhayali.mp3"
+    songSrc:"https://res.cloudinary.com/dp9n2ybat/video/upload/v1795502121/Bekhayali_kuvwku.mp3"
 },{
        Title: "Humnava Mere",
         Artist: "Jubin Nautiyal",
@@ -226,7 +226,7 @@ const songs=[ {
         Genre: "Sad, Romantic",
         Mood: "Heartbreak, Separation, Missing Someone",
         src: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTDKGOZcdvBN9J4HywxIK8dxWn4Q_rdGI1JdA&s",
-        songSrc:"songs/Humnava Mere.mp3"
+        songSrc:"https://res.cloudinary.com/dp9n2ybat/video/upload/v1795503530/Humnava_Mere_uo3o7g.mp3"
     }
     ,
     {
@@ -240,7 +240,7 @@ const songs=[ {
         Genre: "Romantic, Melody, Bollywood",
         Mood: "Love, Happiness, Peaceful",
         src: "https://i1.sndcdn.com/artworks-000071970274-a4vobk-t500x500.jpg",
-        songSrc: "songs/Tum Se Hi Jab We Met 128 Kbps.mp3"
+        songSrc: "https://res.cloudinary.com/dp9n2ybat/video/upload/v1795506117/Tum_Se_Hi_Jab_We_Met_b8a8nw.mp3"
     },
     {
         Title: "Tu Jaane Na",
@@ -253,7 +253,7 @@ const songs=[ {
         Genre: "Romantic, Sad, Melody",
         Mood: "Heartbreak, Unexpressed Love",
         src: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTW9mAc-u07GWnTpnfEgRHMzccjwcjCVeY6HoewKuNncrSPoxNFsILsAxY&s=10",
-        songSrc: "songs/tuJaneNa.mp3"
+        songSrc: "https://res.cloudinary.com/dp9n2ybat/video/upload/v1795505860/tuJaneNa_xlmvfx.mp3"
     },
     {
         Title: "O Mere Dil Ke Chain",
@@ -266,7 +266,7 @@ const songs=[ {
         Genre: "Romantic, Classic, Melody",
         Mood: "Peaceful Love, Nostalgia, Happiness",
         src: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQo1-OpzkY16b_nk6xHaFwn3GxjLlH_Fmqpi71MimTRgzVa1tzo98Z2CGs&s=10",
-        songSrc: "songs/oMere.mp3"
+        songSrc: "https://res.cloudinary.com/dp9n2ybat/video/upload/v1795504780/oMere_anhead.mp3"
     }
 ];
 
