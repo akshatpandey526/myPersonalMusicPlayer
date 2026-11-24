@@ -19,8 +19,8 @@ let currentSongs = songs;
 function displaySongs(songs) {
 container.innerHTML=songs.map((song,i)=>{    
     return `<div class="card rounded padd2" id="" onclick="playFromCard(${i})">
-    <img class="rounded img" src=${song.src} alt="">
-    <img  class="playimg"src=${IMGSRC} alt="">
+    <img loading="lazy" class="rounded img" src=${song.src} alt="">
+    <img loading="lazy" class="playimg"src=${IMGSRC} alt="">
     <h2 class="bf">${song.Title}</h2>
     <h3 class="sbf">${song.Artist}</h3>
     <h3 class="sbf">${song.Artist2}</h3>

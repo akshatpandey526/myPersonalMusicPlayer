@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="./Code/style.css">
     <link rel="stylesheet" href="./Code/responsive.css">
     <link rel="stylesheet" href="./Code/much.css">
+    <link rel="preconnect" href="https://res.cloudinary.com">
 </head>
 
 <body>
@@ -18,7 +19,7 @@
             <nav class="flex spacer">
                 <div class="flex">
                     <img src="./assets/open.svg" alt="open" class="hoverSc" onclick="openSide()">
-                    <img src="./assets/banner.png" class="logo">
+                    <img src="./assets/banner.webp" class="logo">
                 </div>
                 <div>
                     <input type="search" id="searchMyInput" class="inputField" placeholder="Search songs, artists...">
@@ -74,7 +75,7 @@
                 </div>
             </div>
 
-            <audio src="" id="audio"></audio>
+            <audio src="" preload="auto" id="audio"></audio>
         </footer>
     </div>
     <div id="popUp" class="popup bgp">
