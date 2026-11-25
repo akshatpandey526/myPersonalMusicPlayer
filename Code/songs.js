@@ -1,5 +1,159 @@
 const songs = [
     {
+        Title: "Mera Yaar",
+        Artist: "Javed Bashir",
+        Artist2: " ",
+        Movie: "Bhaag Milkha Bhaag",
+        Lyricist: "Prasoon Joshi",
+        Composer: "Shankar Ehsaan Loy",
+        Year: "2013",
+        Genre: "Sufi, Devotional",
+        Mood: "Spiritual, Devotion",
+        src: JavedBashir,
+        songSrc: "https://res.cloudinary.com/dp9n2ybat/video/upload/v1795630956/Mera_Yaar_cruqsc.mp3"
+    },
+    {
+      Title: "Jugarafiya",
+    Artist: "Udit Narayan",
+    Artist2: "Shreya Ghoshal",
+    Movie: "Super 30",
+    Lyricist: "Amitabh Bhattacharya",
+    Composer: "Ajay-Atul",
+    Year: "2019",
+    Genre: "Romantic, Melody, Modern Bollywood",
+    Mood: "Romantic, Sweet, Happy",
+        src: UditJi,
+        songSrc: "https://res.cloudinary.com/dp9n2ybat/video/upload/v1795630956/Jugraafiya_jzbfnk.mp3"
+    },
+    {
+   Title: "Dekha Hazaro Dafa Apko",
+    Artist: "Palak Muchhal",
+    Artist2: "Arijit Singh",
+    Movie: "Rustom",
+    Lyricist: "Manoj Muntashir",
+    Composer: "Jeet Gannguli",
+    Year: "2016",
+    Genre: "Romantic, Soft Ballad, Melody",
+    Mood: "Romantic, Adoration, Tender",
+    src: PalakMuchhal,
+    songSrc: "https://res.cloudinary.com/dp9n2ybat/video/upload/v1795630952/Dekha_Hazaro_Dafaa_zcex0h.mp3"
+},
+   {
+    Title: "O Rangrej",
+    Artist: "Shreya Ghoshal",
+    Artist2: "Javed Bashir",
+    Movie: "Bhaag Milkha Bhaag",
+    Lyricist: "Prasoon Joshi",
+    Composer: "Shankar-Ehsaan-Loy",
+    Year: "2013",
+    Genre: "Soulful, Semi-Classical, Romantic",
+    Mood: "Deep Love, Yearning, Emotional",
+    src: ShreyaGhoshal,
+    songSrc: "https://res.cloudinary.com/dp9n2ybat/video/upload/v1795630957/O_Rangrez_j7nbht.mp3"
+},
+{
+    Title: "Dil Ka Jo Haal",
+    Artist: "Abhijeet Bhattacharya",
+    Artist2: "Shreya Ghoshal",
+    Movie: "Besharam",
+    Lyricist: "Himanshu Kishan Mehra",
+    Composer: "Lalit Pandit",
+    Year: "2013",
+    Genre: "Romantic, Melody, Bollywood",
+    Mood: "Romantic, Playful, Affectionate",
+    src: AbhijeetBhattacharya,
+    songSrc: "https://res.cloudinary.com/dp9n2ybat/video/upload/v1795630956/Dil_Kaa_Jo_Haal_Hai_liefft.mp3"
+},
+{
+    Title: "Mere Rang Me Rangne Wali",
+    Artist: "S. P. Balasubrahmanyam",
+    Artist2: "",
+    Movie: "Maine Pyar Kiya",
+    Lyricist: "Dev Kohli",
+    Composer: "Raamlaxman",
+    Year: "1989",
+    Genre: "Romantic, Melody, 80s",
+    Mood: "Romantic, Nostalgic, Devoted",
+    src:SpBalasubrahmanyam ,
+    songSrc: "https://res.cloudinary.com/dp9n2ybat/video/upload/v1795630959/Mere_Rang_Mein_Rangne_Wali_ulkmiq.mp3"
+},
+{
+    Title: "Char Kadam",
+    Artist: "Shaan",
+    Artist2: "Shreya Ghoshal",
+    Movie: "PK",
+    Lyricist: "Swanand Kirkire",
+    Composer: "Shantanu Moitra",
+    Year: "2014",
+    Genre: "Acoustic, Romantic, Melody",
+    Mood: "Togetherness, Calm, Romantic",
+    src: Shaan,
+    songSrc: "https://res.cloudinary.com/dp9n2ybat/video/upload/v1795630951/Chaar_Kadam_gypvod.mp3"
+},
+{
+    Title: "Are Re Are",
+    Artist: "Lata Mangeshkar",
+    Artist2: "Udit Narayan",
+    Movie: "Dil To Pagal Hai",
+    Lyricist: "Anand Bakshi",
+    Composer: "Uttam Singh",
+    Year: "1997",
+    Genre: "Romantic, Upbeat, 90s",
+    Mood: "Happy, Playful, Energetic",
+    src: LataJi,
+    songSrc: "https://res.cloudinary.com/dp9n2ybat/video/upload/v1795630951/Are_Re_Are_Dil_To_Pagal_Hai_k8mkgk.mp3"
+},
+{
+    Title: "Guzarish",
+    Artist: "Javed Ali",
+    Artist2: "",
+    Movie: "Ghajini",
+    Lyricist: "Prasoon Joshi",
+    Composer: "A. R. Rahman",
+    Year: "2008",
+    Genre: "Romantic, Soulful, Melody",
+    Mood: "Romantic, Dreamy, Passionate",
+    src:JavedAli,
+    songSrc: "https://res.cloudinary.com/dp9n2ybat/video/upload/v1795630953/Guzarish_gnhvnp.mp3"
+},
+{
+    Title: "Alfaaz",
+    Artist: "Zain Zohaib",
+    Artist2: "Hamza Malik",
+    Movie: "Single / Coke Studio",
+    Lyricist: "Hamza Malik, Zain Zohaib",
+    Composer: "Hamza Malik, Zain Zohaib",
+    Year: "2016",
+    Genre: "Sufi, Indie, Acoustic",
+    Mood: "Soulful, Reflective, Calm",
+    src: ZainZohaib,
+    songSrc: "https://res.cloudinary.com/dp9n2ybat/video/upload/v1795630949/Alfaaz_p06ibt.mp3"
+},
+{
+    Title: "Ye Jo Halka Halka",
+    Artist: "Rahat Fateh Ali Khan",
+    Artist2: "",
+    Movie: "Non-Film / Qawwali",
+    Lyricist: "Jigar Moradabadi",
+    Composer: "Ustad Nusrat Fateh Ali Khan",
+    Year: "2006",
+    Genre: "Qawwali, Sufi, Classical",
+    Mood: "Soulful, Intoxicating, Devotional",
+    src: RahatFatehalikhan,
+    songSrc: "https://res.cloudinary.com/dp9n2ybat/video/upload/v1795630959/Ye_Jo_Halka_Halka_Suroor_Hai_ohkucw.mp3"
+},
+
+
+
+
+
+
+
+
+
+
+
+    {
         Title: "Pehli Pehli Baar Mohabbat..",
         Artist: "Alka Yagnik",
         Artist2: "Kumar Sanu",
@@ -35,7 +189,7 @@ const songs = [
         Year: "2006",
         Genre: "Romantic, Melody, Filmi",
         Mood: "Admiration, Joyful Love, Romance",
-        src: "https://res.cloudinary.com/dp9n2ybat/image/upload/f_auto,q_auto/v1795541606/shaan_nawir3.jpg",
+        src: Shaan,
         songSrc: "https://res.cloudinary.com/dp9n2ybat/video/upload/v1795544383/Chand_Sifarish_1_yrejfs.mp3"
     },
     {
@@ -126,7 +280,7 @@ const songs = [
         Year: "2016",
         Genre: "Romantic, Love Ballad",
         Mood: "One-sided Love, Deep Affection",
-        src: "https://res.cloudinary.com/dp9n2ybat/image/upload/f_auto,q_auto/v1795529362/palak_nujein.webp",
+        src: PalakMuchhal,
         songSrc: "https://res.cloudinary.com/dp9n2ybat/video/upload/v1795503974/Kaun_Tujhe_zepzuv.mp3"
     },
     {
@@ -153,7 +307,7 @@ const songs = [
         Year: "2004",
         Genre: "Romantic, Love",
         Mood: "Longing, Eternal Love",
-        src: "https://res.cloudinary.com/dp9n2ybat/image/upload/f_auto,q_auto/v1795529364/udit_jcfuki.jpg",
+        src: UditJi,
         songSrc: "https://res.cloudinary.com/dp9n2ybat/video/upload/v1795504409/Main_Yahaan_Hoon_Yahaan_tyoy2x.mp3"
     },
     {
@@ -166,7 +320,7 @@ const songs = [
         Year: "2009",
         Genre: "Romantic, Sufi",
         Mood: "Devotion, Peaceful Love",
-        src: "https://res.cloudinary.com/dp9n2ybat/image/upload/f_auto,q_auto/v1795529367/rahatfatehalikhan_k3ioje.jpg",
+        src: RahatFatehalikhan,
         songSrc: "https://res.cloudinary.com/dp9n2ybat/video/upload/v1795545067/Ajj_Din_Chadheya_qmiicw.mp3"
     },
     {
@@ -216,9 +370,9 @@ const songs = [
         Composer: "Madan Mohan",
         Lyricist: "Javed Akhtar",
         Year: "2004",
-        src: "https://res.cloudinary.com/dp9n2ybat/image/upload/f_auto,q_auto/v1795529368/Latadi_sof6zk.jpg",
         Genre: "Romantic, Love, Melancholic",
         Mood: "Deep Love, Separation",
+        src: LataJi,
         songSrc: "https://res.cloudinary.com/dp9n2ybat/video/upload/v1795505412/Tere_Liye_tma1uz.mp3"
     },
     {
@@ -261,7 +415,7 @@ const songs = [
         src: "https://res.cloudinary.com/dp9n2ybat/image/upload/f_auto,q_auto/v1795529368/mohemmad_irfan_nilfoa.jpg",
         songSrc: "https://res.cloudinary.com/dp9n2ybat/video/upload/v1795504914/PhirMohabbat_lgicv2.mp3"
     },
-     {
+    {
         Title: "Tu Pyar Hai Kisi Aur Ka",
         Artist: "Anuradha Paudwal",
         Artist2: "Kumar Sanu",
@@ -286,8 +440,8 @@ const songs = [
         Mood: "Passionate Love, Emotional",
         src: "https://res.cloudinary.com/dp9n2ybat/image/upload/f_auto,q_auto/v1795529368/arijitsingh_hhtv4h.webp",
         songSrc: "https://res.cloudinary.com/dp9n2ybat/video/upload/v1795505702/Tu_Hi_Hai_Aashiqui_hfl6v3.mp3"
-    }, 
-     {
+    },
+    {
         Title: "Soch Na Sake",
         Artist: "Amaal Mallik",
         Artist2: "Arijit Singh",
@@ -311,7 +465,7 @@ const songs = [
         Year: "2013",
         Genre: "Sad, Romantic, Emotional",
         Mood: "Heartbreak, Pain, Loneliness",
-        src: "https://res.cloudinary.com/dp9n2ybat/image/upload/f_auto,q_auto/v1795529363/shreya_ikz2q1.jpg",
+        src: ShreyaGhoshal,
         songSrc: "https://res.cloudinary.com/dp9n2ybat/video/upload/v1795505245/Sun_Raha_Hai_zrjzq4.mp3"
     },
     {
@@ -339,7 +493,7 @@ const songs = [
         Mood: "Heartbreak, Pain, Obsession",
         src: "https://res.cloudinary.com/dp9n2ybat/image/upload/f_auto,q_auto/v1795529362/sachet_yduasx.jpg",
         songSrc: "https://res.cloudinary.com/dp9n2ybat/video/upload/v1795502121/Bekhayali_kuvwku.mp3"
-    }, 
+    },
     {
         Title: "Teri Deewani",
         Artist: "kailash kher",
@@ -366,7 +520,7 @@ const songs = [
         src: "https://res.cloudinary.com/dp9n2ybat/image/upload/f_auto,q_auto/v1795529364/nusrat_mebtiy.jpg",
         songSrc: "https://res.cloudinary.com/dp9n2ybat/video/upload/v1795545744/sanson-ki-mala-pey_gnrioi.mp3"
     },
-      {
+    {
         Title: "Ek Pyar Ka Nagma Hai",
         Artist: "Mukesh",
         Artist2: "Lata Mangeshkar",
@@ -392,139 +546,127 @@ const songs = [
         src: "https://res.cloudinary.com/dp9n2ybat/image/upload/f_auto,q_auto/v1795541609/talatmahmood_lrmzx3.jpg",
         songSrc: "https://res.cloudinary.com/dp9n2ybat/video/upload/v1795544373/Itna_Na_Mujhse_Tu_Pyar_Badha_1_i8j1yw.mp3"
     },
-    
 
-//     {
-//     Title: "Phir Bhi Tumko Chaahunga",
-//     Artist: "Shashaa Tirupati",
-//     Artist2: "Arijit Singh",
-//     Movie: "Half Girlfriend",
-//     Lyricist: "Manoj Muntashir",
-//     Composer: "Mithoon",
-//     Year: "2017",
-//     Genre: "Romantic, Nazm",
-//     Mood: "Unconditional Love, Longing",
-//     src: "https://res.cloudinary.com/dp9n2ybat/image/upload/f_auto,q_auto/v1795589647/shashaa_dhhbzl.jpg",
-//     songSrc: "https://example.com/phir-bhi-tumko-chaahunga.mp3"
-//   },
-//   {
-//     Title: "Khuda Jaane",
-//     Artist: "Shilpa Rao",
-//     Artist2: "KK-Krishnakumar Kunnath",
-//     Movie: "Bachna Ae Haseeno",
-//     Lyricist: "Anvita Dutt",
-//     Composer: "Vishal–Shekhar",
-//     Year: "2008",
-//     Genre: "Romantic",
-//     Mood: "Soulful, Devotional Love",
-//     src: "https://res.cloudinary.com/dp9n2ybat/image/upload/f_auto,q_auto/v1795591092/shilpa_ctgdd6.avif",
-//     songSrc: "https://example.com/khuda-jaane.mp3"
-//   },
-//   {
-//     Title: "Kyun Main Jaagoon",
-//     Artist: "Shafqat Amanat Ali",
-//     Artist2: " ",
-//     Movie: "Patiala House",
-//     Lyricist: "Anvita Dutt",
-//     Composer: "Shankar–Ehsaan–Loy",
-//     Year: "2011",
-//     Genre: "Sufi, Sad",
-//     Mood: "Introspective, Heartbreak",
-//     src: "https://res.cloudinary.com/dp9n2ybat/image/upload/f_auto,q_auto/v1795589648/shafqat_wqnbh3.jpg",
-//     songSrc: "https://example.com/kyun-main-jaagoon.mp3"
-//   },
-//   {
-//     Title: "Hawa Banke",
-//     Artist: "Darshan Raval",
-//     Artist2: " ",
-//     Movie: "Single",
-//     Lyricist: "Nirmaan",
-//     Composer: "Nirmaan",
-//     Year: "2019",
-//     Genre: "Romantic, Pop",
-//     Mood: "Tender Love, Longing",
-//     src: "https://res.cloudinary.com/dp9n2ybat/image/upload/f_auto,q_auto/v1795589654/darshan_zuzv0b.jpg",
-//     songSrc: "https://example.com/hawa-banke.mp3"
-//   },
-//   {
-//     Title: "Jiyein Kyun",
-//     Artist: "Papon",
-//     Artist2: " ",
-//     Movie: "Dum Maaro Dum",
-//     Lyricist: "Jaideep Sahni",
-//     Composer: "Pritam",
-//     Year: "2011",
-//     Genre: "Pop, Rock",
-//     Mood: "Melancholic, Reflective",
-//     src: "https://res.cloudinary.com/dp9n2ybat/image/upload/f_auto,q_auto/v1795589649/papon_zutbn5.jpg",
-//     songSrc: "https://example.com/jiyein-kyun.mp3"
-//   },
-//   {
-//     Title: "Phir Le Aya Dil",
-//     Artist: "Rekha Bhardwaj",
-//     Artist2: "Arijit Singh",
-//     Artist3: "Shafqat Amanat Ali",
-//     Movie: "Barfi!",
-//     Lyricist: "Sayeed Quadri",
-//     Composer: "Pritam",
-//     Year: "2012",
-//     Genre: "Ghazal, Sufi",
-//     Mood: "Hopeful, Nostalgic Love",
-//     src: "https://res.cloudinary.com/dp9n2ybat/image/upload/f_auto,q_auto/v1795589650/rekha_nbu73e.jpg",
-//     songSrc: "https://example.com/phir-le-aya-dil.mp3"
-//   },
-//   {
-//     Title: "Bhula Dena",
-//     Artist: "Mustafa Zahid",
-//     Artist2: " ",
-//     Movie: "Aashiqui 2",
-//     Lyricist: "Sanjay Masoomm",
-//     Composer: "Jeet Gannguli",
-//     Year: "2013",
-//     Genre: "Romantic, Sad",
-//     Mood: "Heartbreak, Farewell",
-//     src: "https://res.cloudinary.com/dp9n2ybat/image/upload/f_auto,q_auto/v1795589652/mustafa_tntjh3.jpg",
-//     songSrc: "https://example.com/bhula-dena.mp3"
-//   },
-//   {
-//     Title: "Mera Yaar",
-//     Artist: "Javed Bashir",
-//     Artist2: " ",
-//     Movie: "Bhaag Milkha Bhaag",
-//     Lyricist: "Prasoon Joshi",
-//     Composer: "Shankar–Ehsaan–Loy",
-//     Year: "2013",
-//     Genre: "Sufi, Devotional",
-//     Mood: "Spiritual, Devotion",
-//     src: "https://res.cloudinary.com/dp9n2ybat/image/upload/f_auto,q_auto/v1795590578/javed_axm6nz.jpg",
-//     songSrc: "https://example.com/mera-yaar.mp3"
-//   },
-//   {
-//     Title: "Mann Bharrya",
-//     Artist: "B Praak",
-//     Artist2: " ",
-//     Movie: "Single",
-//     Lyricist: "Jaani",
-//     Composer: "B Praak",
-//     Year: "2017",
-//     Genre: "Sad, Romantic",
-//     Mood: "Emotional, Heartbreak",
-//     src: "https://res.cloudinary.com/dp9n2ybat/image/upload/f_auto,q_auto/v1795589653/bpraak_vjcaju.jpg",
-//     songSrc: "https://example.com/mann-bharrya.mp3"
-//   },
-//   {
-//     Title: "Saiyaara",
-//     Artist: "Tarannum Malik",
-//     Artist2: "Mohit Chauhan",
-//     Movie: "Ek Tha Tiger",
-//     Lyricist: "Kausar Munir",
-//     Composer: "Sohail Sen",
-//     Year: "2012",
-//     Genre: "Romantic",
-//     Mood: "Dreamy, Peaceful Love",
-//     src: "https://res.cloudinary.com/dp9n2ybat/image/upload/f_auto,q_auto/v1795589646/tarrannum_malik_gboyan.jpg",
-//     songSrc: "https://example.com/saiyaara.mp3"
-//   }
+
+    //     {
+    //     Title: "Phir Bhi Tumko Chaahunga",
+    //     Artist: "Shashaa Tirupati",
+    //     Artist2: "Arijit Singh",
+    //     Movie: "Half Girlfriend",
+    //     Lyricist: "Manoj Muntashir",
+    //     Composer: "Mithoon",
+    //     Year: "2017",
+    //     Genre: "Romantic, Nazm",
+    //     Mood: "Unconditional Love, Longing",
+    //     src: "https://res.cloudinary.com/dp9n2ybat/image/upload/f_auto,q_auto/v1795589647/shashaa_dhhbzl.jpg",
+    //     songSrc: "https://example.com/phir-bhi-tumko-chaahunga.mp3"
+    //   },
+    //   {
+    //     Title: "Khuda Jaane",
+    //     Artist: "Shilpa Rao",
+    //     Artist2: "KK-Krishnakumar Kunnath",
+    //     Movie: "Bachna Ae Haseeno",
+    //     Lyricist: "Anvita Dutt",
+    //     Composer: "Vishal–Shekhar",
+    //     Year: "2008",
+    //     Genre: "Romantic",
+    //     Mood: "Soulful, Devotional Love",
+    //     src: "https://res.cloudinary.com/dp9n2ybat/image/upload/f_auto,q_auto/v1795591092/shilpa_ctgdd6.avif",
+    //     songSrc: "https://example.com/khuda-jaane.mp3"
+    //   },
+    //   {
+    //     Title: "Kyun Main Jaagoon",
+    //     Artist: "Shafqat Amanat Ali",
+    //     Artist2: " ",
+    //     Movie: "Patiala House",
+    //     Lyricist: "Anvita Dutt",
+    //     Composer: "Shankar–Ehsaan–Loy",
+    //     Year: "2011",
+    //     Genre: "Sufi, Sad",
+    //     Mood: "Introspective, Heartbreak",
+    //     src: "https://res.cloudinary.com/dp9n2ybat/image/upload/f_auto,q_auto/v1795589648/shafqat_wqnbh3.jpg",
+    //     songSrc: "https://example.com/kyun-main-jaagoon.mp3"
+    //   },
+    //   {
+    //     Title: "Hawa Banke",
+    //     Artist: "Darshan Raval",
+    //     Artist2: " ",
+    //     Movie: "Single",
+    //     Lyricist: "Nirmaan",
+    //     Composer: "Nirmaan",
+    //     Year: "2019",
+    //     Genre: "Romantic, Pop",
+    //     Mood: "Tender Love, Longing",
+    //     src: "https://res.cloudinary.com/dp9n2ybat/image/upload/f_auto,q_auto/v1795589654/darshan_zuzv0b.jpg",
+    //     songSrc: "https://example.com/hawa-banke.mp3"
+    //   },
+    //   {
+    //     Title: "Jiyein Kyun",
+    //     Artist: "Papon",
+    //     Artist2: " ",
+    //     Movie: "Dum Maaro Dum",
+    //     Lyricist: "Jaideep Sahni",
+    //     Composer: "Pritam",
+    //     Year: "2011",
+    //     Genre: "Pop, Rock",
+    //     Mood: "Melancholic, Reflective",
+    //     src: "https://res.cloudinary.com/dp9n2ybat/image/upload/f_auto,q_auto/v1795589649/papon_zutbn5.jpg",
+    //     songSrc: "https://example.com/jiyein-kyun.mp3"
+    //   },
+    //   {
+    //     Title: "Phir Le Aya Dil",
+    //     Artist: "Rekha Bhardwaj",
+    //     Artist2: "Arijit Singh",
+    //     Artist3: "Shafqat Amanat Ali",
+    //     Movie: "Barfi!",
+    //     Lyricist: "Sayeed Quadri",
+    //     Composer: "Pritam",
+    //     Year: "2012",
+    //     Genre: "Ghazal, Sufi",
+    //     Mood: "Hopeful, Nostalgic Love",
+    //     src: "https://res.cloudinary.com/dp9n2ybat/image/upload/f_auto,q_auto/v1795589650/rekha_nbu73e.jpg",
+    //     songSrc: "https://example.com/phir-le-aya-dil.mp3"
+    //   },
+    //   {
+    //     Title: "Bhula Dena",
+    //     Artist: "Mustafa Zahid",
+    //     Artist2: " ",
+    //     Movie: "Aashiqui 2",
+    //     Lyricist: "Sanjay Masoomm",
+    //     Composer: "Jeet Gannguli",
+    //     Year: "2013",
+    //     Genre: "Romantic, Sad",
+    //     Mood: "Heartbreak, Farewell",
+    //     src: "https://res.cloudinary.com/dp9n2ybat/image/upload/f_auto,q_auto/v1795589652/mustafa_tntjh3.jpg",
+    //     songSrc: "https://example.com/bhula-dena.mp3"
+    //   },
+    //  
+    //   {
+    //     Title: "Mann Bharrya",
+    //     Artist: "B Praak",
+    //     Artist2: " ",
+    //     Movie: "Single",
+    //     Lyricist: "Jaani",
+    //     Composer: "B Praak",
+    //     Year: "2017",
+    //     Genre: "Sad, Romantic",
+    //     Mood: "Emotional, Heartbreak",
+    //     src: "https://res.cloudinary.com/dp9n2ybat/image/upload/f_auto,q_auto/v1795589653/bpraak_vjcaju.jpg",
+    //     songSrc: "https://example.com/mann-bharrya.mp3"
+    //   },
+    //   {
+    //     Title: "Saiyaara",
+    //     Artist: "Tarannum Malik",
+    //     Artist2: "Mohit Chauhan",
+    //     Movie: "Ek Tha Tiger",
+    //     Lyricist: "Kausar Munir",
+    //     Composer: "Sohail Sen",
+    //     Year: "2012",
+    //     Genre: "Romantic",
+    //     Mood: "Dreamy, Peaceful Love",
+    //     src: "https://res.cloudinary.com/dp9n2ybat/image/upload/f_auto,q_auto/v1795589646/tarrannum_malik_gboyan.jpg",
+    //     songSrc: "https://example.com/saiyaara.mp3"
+    //   }
 ];
 
 

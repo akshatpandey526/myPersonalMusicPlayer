@@ -1,0 +1,11 @@
+const AbhijeetBhattacharya="https://res.cloudinary.com/dp9n2ybat/image/upload/f_auto,q_auto/v1795633021/abhijeet_kjpevj.jpg";
+const JavedAli="https://res.cloudinary.com/dp9n2ybat/image/upload/f_auto,q_auto/v1795633021/javed_ali_jpkn49.avif";
+const JavedBashir="https://res.cloudinary.com/dp9n2ybat/image/upload/f_auto,q_auto/v1795590578/javed_axm6nz.jpg";
+const PalakMuchhal="https://res.cloudinary.com/dp9n2ybat/image/upload/f_auto,q_auto/v1795529362/palak_nujein.webp";
+const LataJi="https://res.cloudinary.com/dp9n2ybat/image/upload/f_auto,q_auto/v1795529368/Latadi_sof6zk.jpg";
+const RahatFatehalikhan="https://res.cloudinary.com/dp9n2ybat/image/upload/f_auto,q_auto/v1795529367/rahatfatehalikhan_k3ioje.jpg";
+const Shaan="https://res.cloudinary.com/dp9n2ybat/image/upload/f_auto,q_auto/v1795541606/shaan_nawir3.jpg";
+const ShreyaGhoshal="https://res.cloudinary.com/dp9n2ybat/image/upload/f_auto,q_auto/v1795529363/shreya_ikz2q1.jpg";
+const SpBalasubrahmanyam ="https://res.cloudinary.com/dp9n2ybat/image/upload/f_auto,q_auto/v1795633021/sp_balasubrhamaniyam_ztdtkg.avif";
+const UditJi = "https://res.cloudinary.com/dp9n2ybat/image/upload/f_auto,q_auto/v1795529364/udit_jcfuki.jpg";
+const ZainZohaib="https://res.cloudinary.com/dp9n2ybat/image/upload/f_auto,q_auto/v1795633022/zain_rugjtj.jpg";
