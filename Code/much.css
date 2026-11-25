@@ -86,10 +86,21 @@ border-top: 0;
 }
 
 
-.color>.speCol{
-    color: white;
+.artistName{
+    color: rgb(0, 0, 0);
+    background-color: #aff5af49;
+    border-radius: 10px;
+    padding: 2px 0px;
+    border: 1px solid white;
 }
+.artistName h3{
+    margin:2px 12px;
+    color: white;
 
+}
+.gapping{
+   gap: 25px;
+}
 .progress-container {
     display: flex;
     align-items: center;
