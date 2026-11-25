@@ -97,8 +97,10 @@ sign.addEventListener("click", () => {
     }
 });
 
-names.innerHTML = songs.map((song) => {
-    return `<p class="mar cur" onclick="filterByArtist('${song.Artist}')">${song.Artist}</p>`;
+const uniqueArtists = [...new Set(songs.map(song => (song.Artist || "").trim()).filter(Boolean))].sort();
+
+names.innerHTML = uniqueArtists.map((artist) => {
+    return `<p class="mar cur" onclick="filterByArtist('${artist.replace(/'/g, "\\'")}')">${artist}</p>`;
 }).join("");
 
 function filterByArtist(artist) {
