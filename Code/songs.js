@@ -92,7 +92,7 @@ const songs = [
 },
 {
     Title: "Are Re Are",
-    Artist: "Lata Mangeshkar",
+    Artist: "Lata Mangeshkar Ji",
     Artist2: "Udit Narayan",
     Movie: "Dil To Pagal Hai",
     Lyricist: "Anand Bakshi",
@@ -142,18 +142,7 @@ const songs = [
     src: RahatFatehalikhan,
     songSrc: "https://res.cloudinary.com/dp9n2ybat/video/upload/v1795630959/Ye_Jo_Halka_Halka_Suroor_Hai_ohkucw.mp3"
 },
-
-
-
-
-
-
-
-
-
-
-
-    {
+ {
         Title: "Pehli Pehli Baar Mohabbat..",
         Artist: "Alka Yagnik",
         Artist2: "Kumar Sanu",
@@ -312,7 +301,7 @@ const songs = [
     },
     {
         Title: "Ajj Din Chadheya",
-        Artist: "Rahat Fateh ALi Khan",
+        Artist: "Rahat Fateh Ali Khan",
         Artist2: " ",
         Movie: "Love Aaj Kal",
         Lyricist: "Irshad Kamil",
