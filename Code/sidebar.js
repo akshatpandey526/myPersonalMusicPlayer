@@ -14,6 +14,7 @@ function closeSide() {
 
 function showPopUp(song){
     popUp.style.display = "block";
+    updateDuration();
     document.getElementById('popupImg').src = song.src;
     document.getElementById('popupTitle').innerText = song.Title;
     document.getElementById('popupArtist').innerText = song.Artist;
@@ -56,16 +57,34 @@ progressBar.addEventListener("input", () => {
     audio.currentTime = (progressBar.value / 100) * audio.duration;
 });
 function formatTime(time) {
+    if (!time || isNaN(time) || !isFinite(time)) return "0:00";
     let min = Math.floor(time / 60);
     let sec = Math.floor(time % 60);
-
     return `${min}:${sec < 10 ? '0' : ''}${sec}`;
 }
 
-audio.addEventListener("loadedmetadata", () => {
-    duration.innerText = formatTime(audio.duration);
-});
+function updateDuration() {
+    if (audio.duration && !isNaN(audio.duration) && isFinite(audio.duration)) {
+        duration.innerText = formatTime(audio.duration);
+    }
+}
+
+audio.addEventListener("loadedmetadata", updateDuration);
+
+audio.addEventListener("durationchange", updateDuration);
 
 audio.addEventListener("timeupdate", () => {
+    if (audio.duration && !isNaN(audio.duration) && isFinite(audio.duration)) {
+        progressBar.value = (audio.currentTime / audio.duration) * 100;
+        if (duration.innerText === "0:00" || duration.innerText === "") {
+            duration.innerText = formatTime(audio.duration);
+        }
+    }
     currentTime.innerText = formatTime(audio.currentTime);
+});
+
+progressBar.addEventListener("input", () => {
+    if (audio.duration && !isNaN(audio.duration) && isFinite(audio.duration)) {
+        audio.currentTime = (progressBar.value / 100) * audio.duration;
+    }
 });

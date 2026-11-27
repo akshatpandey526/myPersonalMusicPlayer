@@ -1,0 +1,4 @@
+const DekhaHazaro ="https://res.cloudinary.com/dp9n2ybat/video/upload/v1795762530/DEKHA_HAZARO_DAFAA_jlpxht.mp3";
+const MeraYaar="https://res.cloudinary.com/dp9n2ybat/video/upload/v1795761290/Mera_Yaar_Lyric_Video_-_Bhaag_Milkha_BhaagFarhan_Akhtar_Sonam_KapoorJaved_Bashir_rrk6kj.mp3";
+const JugarafiyaSong="https://res.cloudinary.com/dp9n2ybat/video/upload/v1795761919/Jugraafiya_-_Super_30_Hrithik_Roshan_Mrunal_ThakurUdit_Narayan_Shreya_GhoshalAjay_AtulAmitabh_B_gtejuz.mp3";
+const ChaandSifarish="https://res.cloudinary.com/dp9n2ybat/video/upload/v1795760912/Chand_Sifarish_Full_Song_Fanaa_Aamir_Khan_Kajol_Shaan_Kailash_Kher_Jatin-Lalit_Prasoon_1_zuyfjy.mp3";

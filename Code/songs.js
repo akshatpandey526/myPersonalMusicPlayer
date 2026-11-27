@@ -10,7 +10,7 @@ const songs = [
         Genre: "Sufi, Devotional",
         Mood: "Spiritual, Devotion",
         src: JavedBashir,
-        songSrc: "https://res.cloudinary.com/dp9n2ybat/video/upload/v1795630956/Mera_Yaar_cruqsc.mp3"
+        songSrc: MeraYaar
     },
     {
       Title: "Jugarafiya",
@@ -23,7 +23,7 @@ const songs = [
     Genre: "Romantic, Melody, Modern Bollywood",
     Mood: "Romantic, Sweet, Happy",
         src: UditJi,
-        songSrc: "https://res.cloudinary.com/dp9n2ybat/video/upload/v1795630956/Jugraafiya_jzbfnk.mp3"
+        songSrc: JugarafiyaSong
     },
     {
    Title: "Dekha Hazaro Dafa Apko",
@@ -36,7 +36,7 @@ const songs = [
     Genre: "Romantic, Soft Ballad, Melody",
     Mood: "Romantic, Adoration, Tender",
     src: PalakMuchhal,
-    songSrc: "https://res.cloudinary.com/dp9n2ybat/video/upload/v1795630952/Dekha_Hazaro_Dafaa_zcex0h.mp3"
+    songSrc: DekhaHazaro
 },
    {
     Title: "O Rangrej",
@@ -179,7 +179,7 @@ const songs = [
         Genre: "Romantic, Melody, Filmi",
         Mood: "Admiration, Joyful Love, Romance",
         src: Shaan,
-        songSrc: "https://res.cloudinary.com/dp9n2ybat/video/upload/v1795760912/Chand_Sifarish_Full_Song_Fanaa_Aamir_Khan_Kajol_Shaan_Kailash_Kher_Jatin-Lalit_Prasoon_1_zuyfjy.mp3"
+        songSrc: ChaandSifarish
     },
     {
         Title: "Main Agar Kahoon",
