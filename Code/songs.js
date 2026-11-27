@@ -49,7 +49,7 @@ const songs = [
     Genre: "Soulful, Semi-Classical, Romantic",
     Mood: "Deep Love, Yearning, Emotional",
     src: ShreyaGhoshal,
-    songSrc: "https://res.cloudinary.com/dp9n2ybat/video/upload/v1795630957/O_Rangrez_j7nbht.mp3"
+    songSrc:Orangrej
 },
 {
     Title: "Dil Ka Jo Haal",
@@ -62,10 +62,10 @@ const songs = [
     Genre: "Romantic, Melody, Bollywood",
     Mood: "Romantic, Playful, Affectionate",
     src: AbhijeetBhattacharya,
-    songSrc: "https://res.cloudinary.com/dp9n2ybat/video/upload/v1795630956/Dil_Kaa_Jo_Haal_Hai_liefft.mp3"
+    songSrc: DilKaJOHaal
 },
 {
-    Title: "Mere Rang Me Rangne Wali",
+    Title: "Mere Rang Me",
     Artist: "S. P. Balasubrahmanyam",
     Artist2: "",
     Movie: "Maine Pyar Kiya",
@@ -75,7 +75,7 @@ const songs = [
     Genre: "Romantic, Melody, 80s",
     Mood: "Romantic, Nostalgic, Devoted",
     src:SpBalasubrahmanyam ,
-    songSrc: "https://res.cloudinary.com/dp9n2ybat/video/upload/v1795630959/Mere_Rang_Mein_Rangne_Wali_ulkmiq.mp3"
+    songSrc:MereRangMein
 },
 {
     Title: "Char Kadam",
@@ -88,7 +88,7 @@ const songs = [
     Genre: "Acoustic, Romantic, Melody",
     Mood: "Togetherness, Calm, Romantic",
     src: Shaan,
-    songSrc: "https://res.cloudinary.com/dp9n2ybat/video/upload/v1795630951/Chaar_Kadam_gypvod.mp3"
+    songSrc: CharKadam
 },
 {
     Title: "Are Re Are",
@@ -101,7 +101,7 @@ const songs = [
     Genre: "Romantic, Upbeat, 90s",
     Mood: "Happy, Playful, Energetic",
     src: LataJi,
-    songSrc: "https://res.cloudinary.com/dp9n2ybat/video/upload/v1795630951/Are_Re_Are_Dil_To_Pagal_Hai_k8mkgk.mp3"
+    songSrc: AreReAre
 },
 {
     Title: "Guzarish",
@@ -114,7 +114,7 @@ const songs = [
     Genre: "Romantic, Soulful, Melody",
     Mood: "Romantic, Dreamy, Passionate",
     src:JavedAli,
-    songSrc: "https://res.cloudinary.com/dp9n2ybat/video/upload/v1795630953/Guzarish_gnhvnp.mp3"
+    songSrc: Gujarish
 },
 {
     Title: "Alfaaz",
@@ -127,7 +127,7 @@ const songs = [
     Genre: "Sufi, Indie, Acoustic",
     Mood: "Soulful, Reflective, Calm",
     src: ZainZohaib,
-    songSrc: "https://res.cloudinary.com/dp9n2ybat/video/upload/v1795630949/Alfaaz_p06ibt.mp3"
+    songSrc: AlfaazSong
 },
 {
     Title: "Ye Jo Halka Halka",
@@ -140,7 +140,7 @@ const songs = [
     Genre: "Qawwali, Sufi, Classical",
     Mood: "Soulful, Intoxicating, Devotional",
     src: RahatFatehalikhan,
-    songSrc: "https://res.cloudinary.com/dp9n2ybat/video/upload/v1795630959/Ye_Jo_Halka_Halka_Suroor_Hai_ohkucw.mp3"
+    songSrc: YeJoHalkaHalka
 },
  {
         Title: "Pehli Pehli Baar Mohabbat..",
@@ -153,7 +153,7 @@ const songs = [
         Genre: "Romantic, Melody, 90s",
         Mood: "First Love, Happiness, Romantic",
         src: "https://res.cloudinary.com/dp9n2ybat/image/upload/f_auto,q_auto/v1795541603/alka_yagnik_le5uxe.jpg",
-        songSrc: "https://res.cloudinary.com/dp9n2ybat/video/upload/v1795544375/Pehli_Pehli_Baar_Mohabbat_Ki_Hai_1_ruxgin.mp3"
+        songSrc:PehliPehliBar
     },
     {
         Title: "Tum Se Hi",
@@ -166,7 +166,7 @@ const songs = [
         Genre: "Romantic, Melody, Bollywood",
         Mood: "Love, Happiness, Peaceful",
         src: "https://res.cloudinary.com/dp9n2ybat/image/upload/f_auto,q_auto/v1795529362/mohit_vs3hsr.jpg",
-        songSrc: "https://res.cloudinary.com/dp9n2ybat/video/upload/v1795506117/Tum_Se_Hi_Jab_We_Met_b8a8nw.mp3"
+        songSrc: TumSeHi
     },
     {
         Title: "Chand Sifarish",
@@ -192,7 +192,7 @@ const songs = [
         Genre: "Romantic, Melody",
         Mood: "Admiration, Beautiful Love",
         src: "https://res.cloudinary.com/dp9n2ybat/image/upload/f_auto,q_auto/v1795529365/sonu_xotw9m.jpg",
-        songSrc: "https://res.cloudinary.com/dp9n2ybat/video/upload/v1795504189/Main_Agar_Kahoon_tzcz1z.mp3"
+        songSrc: MainAgarKahoon
     },
     {
         Title: "Kaise Hua",
@@ -205,7 +205,7 @@ const songs = [
         Genre: "Romantic, Love",
         Mood: "Falling in Love, Happiness",
         src: "https://res.cloudinary.com/dp9n2ybat/image/upload/f_auto,q_auto/v1795529365/vishal_w8my4r.jpg",
-        songSrc: "https://res.cloudinary.com/dp9n2ybat/video/upload/v1795503757/Kaise_Hua_uwt96j.mp3"
+        songSrc: KaiseHua
     },
     {
         Title: "O Mere Dil Ke Chain",
