@@ -71,4 +71,4 @@ const TuPyarHaiKisi="https://res.cloudinary.com/dp9n2ybat/video/upload/v17958058
 
 // from Y word
 const YeJoHalkaHalka="https://res.cloudinary.com/dp9n2ybat/video/upload/v1795801041/Ye_Jo_Halka_Halka_Suroor_Hai_Song_With_Lyrics_Rahat_Fateh_Ali_Khan_Lyrics_Jukebox_ca39dp.mp3";
-const YehRaateinYehMausam="https://res.cloudinary.com/dp9n2ybat/video/upload/v1795804213/Yeh_Raaten_Yeh_Mausam_aa4ui3.mp3";
+const YehRaateinYehMausam="https://res.cloudinary.com/dp9n2ybat/video/upload/v1795808748/Yeh_Ratein_Yeh_Mausam_reg0lb.mp3";
