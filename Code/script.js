@@ -34,11 +34,17 @@ if (songs.length === 0) {
 }
 
 function loadSong(i) {
-    audio.src = currentSongs[i].songSrc;
+    let src = currentSongs[i].songSrc;
+
+    // Jaadui Trick: Agar Cloudinary link hai, toh yeh apne aap 'br_128k' laga dega
+    if (src.includes("cloudinary.com") && src.includes("/upload/")) {
+        src = src.replace("/upload/", "/upload/br_128k/");
+    }
+
+    audio.src = src;
     titleOne.innerText = currentSongs[i].Artist;
     titleTwo.innerText = currentSongs[i].Artist2;
     ArtistPic.src = currentSongs[i].src;    
-    
 }
 
 function playFromCard(i) {

@@ -179,7 +179,7 @@ const songs = [
         Genre: "Romantic, Melody, Filmi",
         Mood: "Admiration, Joyful Love, Romance",
         src: Shaan,
-        songSrc: "https://res.cloudinary.com/dp9n2ybat/video/upload/v1795544383/Chand_Sifarish_1_yrejfs.mp3"
+        songSrc: "https://res.cloudinary.com/dp9n2ybat/video/upload/v1795760912/Chand_Sifarish_Full_Song_Fanaa_Aamir_Khan_Kajol_Shaan_Kailash_Kher_Jatin-Lalit_Prasoon_1_zuyfjy.mp3"
     },
     {
         Title: "Main Agar Kahoon",
