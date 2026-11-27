@@ -218,7 +218,7 @@ const songs = [
         Genre: "Romantic, Classic, Melody",
         Mood: "Peaceful Love, Nostalgia, Happiness",
         src: "https://res.cloudinary.com/dp9n2ybat/image/upload/f_auto,q_auto/v1795529363/kishore_io3s3f.jpg",
-        songSrc: "https://res.cloudinary.com/dp9n2ybat/video/upload/v1795504780/oMere_anhead.mp3"
+        songSrc: OMereDilKeChain
     },
     {
         Title: "Yeh Raatein Yeh Mausam",
@@ -231,7 +231,7 @@ const songs = [
         Genre: "Romantic, Classic, Melody",
         Mood: "Peaceful Love, Nostalgia, Dreamy",
         src: "https://res.cloudinary.com/dp9n2ybat/image/upload/f_auto,q_auto/v1795541604/ashabhosle_zohfyx.jpg",
-        songSrc: "https://res.cloudinary.com/dp9n2ybat/video/upload/v1795544369/Yeh_Raaten_Yeh_Mausam_1_rvlvyw.mp3"
+        songSrc: YehRaateinYehMausam
     },
     {
         Title: "Dil kehta hai",
@@ -244,7 +244,7 @@ const songs = [
         Genre: "Romantic, Melody",
         Mood: "Love, Emotional, Nostalgic",
         src: "https://res.cloudinary.com/dp9n2ybat/image/upload/f_auto,q_auto/v1795529363/kumarsanu_ejjcso.jpg",
-        songSrc: "https://res.cloudinary.com/dp9n2ybat/video/upload/v1795545736/Dil_Kehta_Hai_afuwsa.mp3"
+        songSrc: DilKehtaHai
     },
     {
         Title: "Dil ibadat",
@@ -257,7 +257,7 @@ const songs = [
         Genre: "Romantic, Love",
         Mood: "Deep Love, Emotional",
         src: "https://res.cloudinary.com/dp9n2ybat/image/upload/f_auto,q_auto/v1795529367/kk_wowdnn.jpg",
-        songSrc: "https://res.cloudinary.com/dp9n2ybat/video/upload/v1795502847/Dil_Ibaadat_jqh7u1.mp3"
+        songSrc: DilIbadat
     },
     {
         Title: "Kaun Tujhe",
@@ -270,7 +270,7 @@ const songs = [
         Genre: "Romantic, Love Ballad",
         Mood: "One-sided Love, Deep Affection",
         src: PalakMuchhal,
-        songSrc: "https://res.cloudinary.com/dp9n2ybat/video/upload/v1795503974/Kaun_Tujhe_zepzuv.mp3"
+        songSrc: KaunTujhe
     },
     {
         Title: "Bol Do Na Zara",
@@ -283,7 +283,7 @@ const songs = [
         Genre: "Romantic, Soft Rock, Melancholic",
         Mood: "Longing, Confession, Deep Love",
         src: "https://res.cloudinary.com/dp9n2ybat/image/upload/f_auto,q_auto/v1795529364/armanmalik_gqtqfs.jpg",
-        songSrc: "https://res.cloudinary.com/dp9n2ybat/video/upload/v1795502559/bolDo_sevm3e.mp3"
+        songSrc: BolDoNAZara
     },
     {
         Title: "Main Yahaan Hoon",
@@ -297,7 +297,7 @@ const songs = [
         Genre: "Romantic, Love",
         Mood: "Longing, Eternal Love",
         src: UditJi,
-        songSrc: "https://res.cloudinary.com/dp9n2ybat/video/upload/v1795504409/Main_Yahaan_Hoon_Yahaan_tyoy2x.mp3"
+        songSrc: MainYahaanHoon
     },
     {
         Title: "Ajj Din Chadheya",
@@ -310,7 +310,7 @@ const songs = [
         Genre: "Romantic, Sufi",
         Mood: "Devotion, Peaceful Love",
         src: RahatFatehalikhan,
-        songSrc: "https://res.cloudinary.com/dp9n2ybat/video/upload/v1795545067/Ajj_Din_Chadheya_qmiicw.mp3"
+        songSrc: AjjDinChadheya
     },
     {
         Title: "Har Kisi Ko",
@@ -323,7 +323,7 @@ const songs = [
         src: "https://res.cloudinary.com/dp9n2ybat/image/upload/f_auto,q_auto/v1795538014/neeti_1_mvrujl.jpg",
         Genre: "Romantic, Pop Filmi",
         Mood: "Romance, Longing, Soulful",
-        songSrc: "https://res.cloudinary.com/dp9n2ybat/video/upload/v1795538408/Har_Kisi_Ko_1_Boss_128_Kbps_compressed_by_happyscribe.com_ql4kwk.mp3"
+        songSrc: HarKisiKo
     },
     {
         Title: "Tu Jaane Na",
@@ -336,7 +336,7 @@ const songs = [
         Genre: "Romantic, Sad, Melody",
         Mood: "Heartbreak, Unexpressed Love",
         src: "https://res.cloudinary.com/dp9n2ybat/image/upload/f_auto,q_auto/v1795532928/pritam_zibyzm.jpg",
-        songSrc: "https://res.cloudinary.com/dp9n2ybat/video/upload/v1795505860/tuJaneNa_xlmvfx.mp3"
+        songSrc: TuJaaneNa
     },
     {
         Title: "Mere Bina",
@@ -349,7 +349,7 @@ const songs = [
         src: "https://res.cloudinary.com/dp9n2ybat/image/upload/f_auto,q_auto/v1795538631/nikhil_1_gx0m29.jpg",
         Genre: "Romantic, Pop Rock, Melancholic",
         Mood: "Longing, Heartbreak, Nostalgia",
-        songSrc: "https://res.cloudinary.com/dp9n2ybat/video/upload/v1795538467/Mere_Bina_Crook_128_Kbps_compressed_by_happyscribe.com_sx7s3y.mp3"
+        songSrc: MereBina
     },
     {
         Title: "Tere liye",
@@ -362,7 +362,7 @@ const songs = [
         Genre: "Romantic, Love, Melancholic",
         Mood: "Deep Love, Separation",
         src: LataJi,
-        songSrc: "https://res.cloudinary.com/dp9n2ybat/video/upload/v1795505412/Tere_Liye_tma1uz.mp3"
+        songSrc: TereLiye
     },
     {
         Title: "Mera Pyar Tera Pyar",
@@ -375,7 +375,7 @@ const songs = [
         Genre: "Romantic, Love",
         Mood: "Emotional Love, Separation",
         src: "https://res.cloudinary.com/dp9n2ybat/image/upload/f_auto,q_auto/v1795529363/jeet_d8a990.jpg",
-        songSrc: "https://res.cloudinary.com/dp9n2ybat/video/upload/v1795504621/Mera_Pyar_iryfuk.mp3"
+        songSrc: MeraPyarTeraPyar
     },
     {
         Title: "Tu Hai Ki Nahi",
@@ -388,7 +388,7 @@ const songs = [
         Genre: "Romantic, Sad, Soulful",
         Mood: "Heartbreak, Longing, Doubt",
         src: "https://res.cloudinary.com/dp9n2ybat/image/upload/f_auto,q_auto/v1795537444/ankit_tiwari_1_dwqjog.jpg",
-        songSrc: "https://res.cloudinary.com/dp9n2ybat/video/upload/v1795537243/Tu_Hai_Ki_Nahi_bhnohs.mp3"
+        songSrc: TuHaiKiNahi
     },
     {
         Title: "Phir Mohabbat",
@@ -402,7 +402,7 @@ const songs = [
         Genre: "Romantic, Melancholic, Sad",
         Mood: "Heartbreak, Deep Love, Longing",
         src: "https://res.cloudinary.com/dp9n2ybat/image/upload/f_auto,q_auto/v1795529368/mohemmad_irfan_nilfoa.jpg",
-        songSrc: "https://res.cloudinary.com/dp9n2ybat/video/upload/v1795504914/PhirMohabbat_lgicv2.mp3"
+        songSrc: PhirMohabbat
     },
     {
         Title: "Tu Pyar Hai Kisi Aur Ka",
@@ -415,7 +415,7 @@ const songs = [
         Genre: "Romantic, Sad, 90s",
         Mood: "Heartbreak, Unrequited Love, Emotional",
         src: "https://res.cloudinary.com/dp9n2ybat/image/upload/f_auto,q_auto/v1795541604/anuradha_izog7m.jpg",
-        songSrc: "https://res.cloudinary.com/dp9n2ybat/video/upload/v1795544371/Tu_Pyar_Hai_Kisi_Aur_Ka_1_ngedrg.mp3"
+        songSrc: TuPyarHaiKisi
     },
     {
         Title: "Tu hi hai Aashiqui",
@@ -428,7 +428,7 @@ const songs = [
         Genre: "Romantic, Love",
         Mood: "Passionate Love, Emotional",
         src: "https://res.cloudinary.com/dp9n2ybat/image/upload/f_auto,q_auto/v1795529368/arijitsingh_hhtv4h.webp",
-        songSrc: "https://res.cloudinary.com/dp9n2ybat/video/upload/v1795505702/Tu_Hi_Hai_Aashiqui_hfl6v3.mp3"
+        songSrc: TuHiHai
     },
     {
         Title: "Soch Na Sake",
@@ -442,7 +442,7 @@ const songs = [
         src: "https://res.cloudinary.com/dp9n2ybat/image/upload/f_auto,q_auto/v1795529362/amaal_bshswi.jpg",
         Genre: "Romantic, Melancholic, Sad",
         Mood: "Heartbreak, Deep Love, Longing",
-        songSrc: "https://res.cloudinary.com/dp9n2ybat/video/upload/v1795533796/Soch_Na_Sake_Airlift_128_Kbps_compressed_by_happyscribe.com_1_ssmet3.mp3"
+        songSrc: SochNaSake
     },
     {
         Title: "Sun raha Hai",
@@ -455,7 +455,7 @@ const songs = [
         Genre: "Sad, Romantic, Emotional",
         Mood: "Heartbreak, Pain, Loneliness",
         src: ShreyaGhoshal,
-        songSrc: "https://res.cloudinary.com/dp9n2ybat/video/upload/v1795505245/Sun_Raha_Hai_zrjzq4.mp3"
+        songSrc: SunRahaHai
     },
     {
         Title: "Humnava Mere",
@@ -468,7 +468,7 @@ const songs = [
         Genre: "Sad, Romantic",
         Mood: "Heartbreak, Separation, Missing Someone",
         src: "https://res.cloudinary.com/dp9n2ybat/image/upload/f_auto,q_auto/v1795529363/jubin_qpkl7y.jpg",
-        songSrc: "https://res.cloudinary.com/dp9n2ybat/video/upload/v1795503530/Humnava_Mere_uo3o7g.mp3"
+        songSrc: HumnavaMere
     },
     {
         Title: "Bekhayali",
@@ -481,7 +481,7 @@ const songs = [
         Genre: "Sad, Rock, Romantic",
         Mood: "Heartbreak, Pain, Obsession",
         src: "https://res.cloudinary.com/dp9n2ybat/image/upload/f_auto,q_auto/v1795529362/sachet_yduasx.jpg",
-        songSrc: "https://res.cloudinary.com/dp9n2ybat/video/upload/v1795502121/Bekhayali_kuvwku.mp3"
+        songSrc: BekhayaliMein
     },
     {
         Title: "Teri Deewani",
@@ -494,7 +494,7 @@ const songs = [
         Genre: "Sufi, Romantic, Devotional",
         Mood: "Spiritual Love, Ishq, Junoon",
         src: "https://res.cloudinary.com/dp9n2ybat/image/upload/f_auto,q_auto/v1795529367/kailashkher_k6qtlo.jpg",
-        songSrc: "https://res.cloudinary.com/dp9n2ybat/video/upload/v1795505562/Teri_Deewani_n8pjce.mp3"
+        songSrc: TeriDeewani
     },
     {
         Title: "Saanson ki mala",
@@ -507,7 +507,7 @@ const songs = [
         Genre: "Sufi, Qawwali, Devotional",
         Mood: "Spiritual, Divine Love",
         src: "https://res.cloudinary.com/dp9n2ybat/image/upload/f_auto,q_auto/v1795529364/nusrat_mebtiy.jpg",
-        songSrc: "https://res.cloudinary.com/dp9n2ybat/video/upload/v1795545744/sanson-ki-mala-pey_gnrioi.mp3"
+        songSrc: SaansonKiMala
     },
     {
         Title: "Ek Pyar Ka Nagma Hai",
@@ -520,7 +520,7 @@ const songs = [
         Genre: "Romantic, Classic, Soulful",
         Mood: "Peaceful Love, Life, Nostalgia",
         src: "https://res.cloudinary.com/dp9n2ybat/image/upload/f_auto,q_auto/v1795541605/mukesh_njursy.jpg",
-        songSrc: "https://res.cloudinary.com/dp9n2ybat/video/upload/v1795544378/Ek_Pyar_Ka_Naghma_1_nmrdfg.mp3"
+        songSrc:EkPyarKa
     },
     {
         Title: "Itna Na Mujhse Tu Pyar..",
@@ -533,7 +533,7 @@ const songs = [
         Genre: "Romantic, Classic, Melody",
         Mood: "Deep Love, Emotional, Nostalgic",
         src: "https://res.cloudinary.com/dp9n2ybat/image/upload/f_auto,q_auto/v1795541609/talatmahmood_lrmzx3.jpg",
-        songSrc: "https://res.cloudinary.com/dp9n2ybat/video/upload/v1795544373/Itna_Na_Mujhse_Tu_Pyar_Badha_1_i8j1yw.mp3"
+        songSrc: ItnaNaMujhse
     },
 
 
