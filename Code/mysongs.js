@@ -5,6 +5,7 @@ const AreReAre="https://res.cloudinary.com/dp9n2ybat/video/upload/v1795799343/Ar
 
 // from B word
 const BekhayaliMein="https://res.cloudinary.com/dp9n2ybat/video/upload/v1795807220/Bekhayali_suikyq.mp3";
+const BhulaDena="https://res.cloudinary.com/dp9n2ybat/video/upload/v1795854163/Bhula_Dena_Mujhe_otjad0.mp3";
 const BolDoNAZara="https://res.cloudinary.com/dp9n2ybat/video/upload/v1795804240/bol_do_na_zara_eqgjwp.mp3";
 
 // from C word
@@ -25,6 +26,7 @@ const Gujarish="https://res.cloudinary.com/dp9n2ybat/video/upload/v1795801049/Gu
 
 // from H word
 const HarKisiKo="https://res.cloudinary.com/dp9n2ybat/video/upload/v1795805749/Har_Kisi_ko_hnlv93.mp3";
+const HawaBanke="https://res.cloudinary.com/dp9n2ybat/video/upload/v1795854142/Hawa_Banke_bzjam9.mp3";
 const HumnavaMere="https://res.cloudinary.com/dp9n2ybat/video/upload/v1795807268/Humnava_Mere_h4so7c.mp3";
 
 
@@ -32,15 +34,19 @@ const HumnavaMere="https://res.cloudinary.com/dp9n2ybat/video/upload/v1795807268
 const ItnaNaMujhse="https://res.cloudinary.com/dp9n2ybat/video/upload/v1795807979/Itna_Na_Mujhse_Tu_Pyaar_Badha_zhxqq7.mp3";
 
 // from J word
+const JiyenKyun="https://res.cloudinary.com/dp9n2ybat/video/upload/v1795854170/Jiyein_Kyun_plnoaq.mp3";
 const JugarafiyaSong = "https://res.cloudinary.com/dp9n2ybat/video/upload/v1795799845/Jugraafiya_bwcsai.mp3";
 
 // from K word
 const KaiseHua="https://res.cloudinary.com/dp9n2ybat/video/upload/v1795801010/KAISE_HUA_LYRICS_Kabir_Singh_Shahid_Kapoor_Kiara_Advani_Vishal_Mishra_Manoj_Muntashir_xmh2qe.mp3";
 const KaunTujhe="https://res.cloudinary.com/dp9n2ybat/video/upload/v1795804196/Kaun_Tujhe_bhxdue.mp3";
+const KhudaJaane="https://res.cloudinary.com/dp9n2ybat/video/upload/v1795854162/Khuda_Jaane_qyqa4r.mp3";
+const KyunMainJagoon="https://res.cloudinary.com/dp9n2ybat/video/upload/v1795854157/Kyun_Main_Jaagoon_i8l96g.mp3";
 
 // from M word
 const MainAgarKahoon="https://res.cloudinary.com/dp9n2ybat/video/upload/v1795801041/Main_Agar_Kahoon_Lyrics_-_Om_Shanti_Om_Sonu_Nigam_Shreya_Ghoshal_tumko_paaya_hu_toh_jaise_fttefq.mp3";
 const MainYahaanHoon="https://res.cloudinary.com/dp9n2ybat/video/upload/v1795804228/Main_Yahaan_Hoon_dyojzn.mp3";
+const MannBharyaa="https://res.cloudinary.com/dp9n2ybat/video/upload/v1795854153/Mann_Bharryaa_irtuym.mp3";
 const MeraPyarTeraPyar="https://res.cloudinary.com/dp9n2ybat/video/upload/v1795805759/Mera_Pyar_Tera_Pyar_t10ir8.mp3";
 const MeraYaar = "https://res.cloudinary.com/dp9n2ybat/video/upload/v1795799313/Mera_Yaar_ri1ems.mp3";
 const MereBina="https://res.cloudinary.com/dp9n2ybat/video/upload/v1795805748/Mere_bina_o7zwrs.mp3";
@@ -52,10 +58,13 @@ const Orangrej = "https://res.cloudinary.com/dp9n2ybat/video/upload/v1795799841/
 
 // from P word
 const PehliPehliBar="https://res.cloudinary.com/dp9n2ybat/video/upload/v1795801033/Pehli_Pehli_Baar_Mohabbat_Ki_Hai_Lyrics_Alka_Yagnik_Kumar_Sanu_xx9ygz.mp3";
+const PhirBhiTumko="https://res.cloudinary.com/dp9n2ybat/video/upload/v1795854152/Phir_Bhi_Tumko_Chaahunga_p7otv4.mp3";
+const PhirLeAaya="https://res.cloudinary.com/dp9n2ybat/video/upload/v1795854176/Phir_Le_Aya_Dil_vqavmf.mp3";
 const PhirMohabbat="https://res.cloudinary.com/dp9n2ybat/video/upload/v1795805754/Phir_Mohabbat_xny6ev.mp3";
 
 // from s word
 const SaansonKiMala="https://res.cloudinary.com/dp9n2ybat/video/upload/v1795807240/Sanson_Ki_Mala_Pe_ikwmyf.mp3";
+const SaiyaaraSong="https://res.cloudinary.com/dp9n2ybat/video/upload/v1795854157/Saiyaara_urr25w.mp3";
 const SunRahaHai="https://res.cloudinary.com/dp9n2ybat/video/upload/v1795807277/Sun_Raha_Hai_ntblwn.mp3";
 const SochNaSake="https://res.cloudinary.com/dp9n2ybat/video/upload/v1795807261/Soch_Na_Sake_txefl4.mp3";
 
